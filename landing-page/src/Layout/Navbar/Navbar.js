@@ -3,6 +3,7 @@ import {
   StyledListContainer,
   StyledListElement as Element,
   NavLink,
+  StyledP,
 } from './Navbar.styled';
 
 const Navbar = () => {
@@ -10,22 +11,22 @@ const Navbar = () => {
     <StyledNavContainer>
       <StyledListContainer>
         <Element>
-          <NavLink to="/">Strona główna</NavLink>
+          <NavLink to="/"><StyledP>Strona główna</StyledP></NavLink>
         </Element>
         <Element>
-          <NavLink to="about">O mnie</NavLink>
+          <NavLink to="about"><StyledP>O mnie</StyledP></NavLink>
         </Element>
         <Element>
-          <NavLink to="knowledge">Baza wiedzy</NavLink>
+          <NavLink to="knowledge"><StyledP>Baza wiedzy</StyledP></NavLink>
         </Element>
         <Element>
-          <NavLink to="offer">Oferta</NavLink>
+          <NavLink to="offer"><StyledP>Oferta</StyledP></NavLink>
         </Element>
         <Element>
-          <NavLink to="shop">Sklep</NavLink>
+          <NavLink to="shop"><StyledP>Sklep</StyledP></NavLink>
         </Element>
         <Element>
-          <NavLink to="contact">Kontakt</NavLink>
+          <NavLink to="contact"><StyledP>Kontakt</StyledP></NavLink>
         </Element>
       </StyledListContainer>
     </StyledNavContainer>

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import GlobalStyled from './Global.styled';
+import GlobalStyled, { UniversalComponentContainer } from './Global.styled';
 import Navbar from './Layout/Navbar/Navbar';
 import LogoBar from './Layout/LogoBar/LogoBar';
 import HomePage from './pages/HomePage/HomePage';
@@ -12,10 +12,6 @@ import ContactPage from './pages/ContactPage/ContactPage';
 
 import { ApplicationWrapper } from './Global.styled';
 
-
-
-
-
 function App() {
   return (
     <Router>
@@ -23,14 +19,16 @@ function App() {
       <ApplicationWrapper>
         <LogoBar />
         <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutMePage />} />
-          <Route path="/knowledge" element={<KnowledgePage />} />
-          <Route path="/offer" element={<OfferPage />} />
-          <Route path="/shop" element={<ShopPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
+        <UniversalComponentContainer>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutMePage />} />
+            <Route path="/knowledge" element={<KnowledgePage />} />
+            <Route path="/offer" element={<OfferPage />} />
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </UniversalComponentContainer>
       </ApplicationWrapper>
     </Router>
   );

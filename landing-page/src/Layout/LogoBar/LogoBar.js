@@ -1,10 +1,17 @@
-import { StyledContainer, StyledLogo, LogoWrapper } from './LogoBar.styled';
+import {
+  StyledContainer,
+  StyledLogo,
+  LogoWrapper,
+  NavLink,
+} from './LogoBar.styled';
 
 const LogoBar = () => {
   return (
     <StyledContainer>
       <LogoWrapper>
-        <StyledLogo src={require('./logo.png')} alt="Logo" />
+        <NavLink to="/">
+          <StyledLogo src={require('./logo2.png')} alt="Logo"></StyledLogo>
+        </NavLink>
       </LogoWrapper>
     </StyledContainer>
   );

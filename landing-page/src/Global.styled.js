@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 
 export default createGlobalStyle`
@@ -8,10 +8,14 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-
   }
-`
+`;
 
 export const ApplicationWrapper = styled.div`
-    height: 200vh;
-`
+  height: 120vh;
+`;
+
+export const UniversalComponentContainer = styled.div`
+  background-image: url('');
+  height: 100%;
+`;
