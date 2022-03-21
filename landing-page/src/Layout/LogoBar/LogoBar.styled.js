@@ -4,8 +4,9 @@ import { NavLink as Link } from 'react-router-dom';
 export const StyledContainer = styled.div`
   display: flex;
   justify-content: center;
-  height: 8rem;
+  height: 9rem;
   width: 100%;
+  //background-color: red;
   //background-color: yellow;
 `;
 
@@ -18,13 +19,13 @@ export const LogoWrapper = styled.div`
 export const StyledLogo = styled.img`
   object-fit: contain;
   flex-grow: 1;
-  width: 200px;
+  width: 300px;
   margin-right: 1rem;
   padding-top: 0.5rem;
   transition: all 0.3s ease-in;
 
   &:hover {
-        width: 280px;
+        width: 350px;
     }
 `;
 

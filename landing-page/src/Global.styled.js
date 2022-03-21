@@ -12,10 +12,9 @@ export default createGlobalStyle`
 `;
 
 export const ApplicationWrapper = styled.div`
-  height: 120vh;
+  //height: 120vh;
 `;
 
 export const UniversalComponentContainer = styled.div`
-  background-image: url('');
-  height: 100%;
+  height: 80vh;
 `;

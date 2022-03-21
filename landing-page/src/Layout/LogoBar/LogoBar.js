@@ -10,7 +10,7 @@ const LogoBar = () => {
     <StyledContainer>
       <LogoWrapper>
         <NavLink to="/">
-          <StyledLogo src={require('./logo2.png')} alt="Logo"></StyledLogo>
+          <StyledLogo src={require('./logo2.png')} alt="Logo" />
         </NavLink>
       </LogoWrapper>
     </StyledContainer>

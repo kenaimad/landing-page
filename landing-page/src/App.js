@@ -9,6 +9,7 @@ import KnowledgePage from './pages/KnowledgePage/KnowledgePage';
 import OfferPage from './pages/OfferPage/OfferPage';
 import ShopPage from './pages/ShopPage/ShopPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import Footer from './Layout/Footer/Footer';
 
 import { ApplicationWrapper } from './Global.styled';
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </UniversalComponentContainer>
+        <Footer />
       </ApplicationWrapper>
     </Router>
   );
