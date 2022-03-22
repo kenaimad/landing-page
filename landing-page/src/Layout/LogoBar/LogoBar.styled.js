@@ -8,6 +8,7 @@ export const StyledContainer = styled.div`
   width: 100%;
   //background-color: red;
   //background-color: yellow;
+  z-index: 5;
 `;
 
 export const LogoWrapper = styled.div`
@@ -25,7 +26,7 @@ export const StyledLogo = styled.img`
   transition: all 0.3s ease-in;
 
   &:hover {
-        width: 350px;
+    transform: scale(1.2);
     }
 `;
 

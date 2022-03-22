@@ -57,8 +57,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-{
-  /* <Element>
-<NavLink to="shop"><StyledP>Sklep</StyledP></NavLink>
-</Element> */
-}

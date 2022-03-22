@@ -8,6 +8,7 @@ export const StyledNavContainer = styled.div`
   border-bottom: 1px solid #c4ab9d;
   background-color: white;
   height: 6rem;
+  z-index: 5;
 `;
 
 export const StyledListContainer = styled.div`
