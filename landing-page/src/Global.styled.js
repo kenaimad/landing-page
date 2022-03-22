@@ -16,5 +16,5 @@ export const ApplicationWrapper = styled.div`
 `;
 
 export const UniversalComponentContainer = styled.div`
-  //height: 250vh;
+  min-height: 100vh;
 `;

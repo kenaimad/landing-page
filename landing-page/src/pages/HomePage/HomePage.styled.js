@@ -13,10 +13,12 @@ export const PhotoWrapper = styled.div`
   margin: 1rem;
   align-self: center;
   cursor: pointer;
+  max-width: 80vw;
   border: 1px solid #c4ab9d;
 `;
 
 export const StyledPhoto = styled.img`
   object-fit: contain;
+  max-width: 75vw;
   padding: 1rem;
 `;

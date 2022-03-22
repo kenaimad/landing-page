@@ -9,6 +9,10 @@ export const StyledContainer = styled.div`
   //background-color: red;
   //background-color: yellow;
   z-index: 5;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 export const LogoWrapper = styled.div`
