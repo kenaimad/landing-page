@@ -50,7 +50,7 @@ export const InformativeSection = styled.section`
     text-align: center;
 
     @media (max-width: 640px) {
-    width: 100%;
+    width: 90%;
     }
 
     ul {
