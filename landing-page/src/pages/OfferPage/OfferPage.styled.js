@@ -6,7 +6,7 @@ export const StyledContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 80%;
-  min-width: 420px;
+  min-width: 330px;
 `;
 
 export const StyledTitle = styled.h1`
@@ -40,17 +40,16 @@ export const InformativeSection = styled.section`
   color: #c4ab9d;
   font-weight: bold;
   text-align: justify;
-  min-width: 420px;
+  min-width: 300px;
   width: 100%;
 
 
   div {
     width: 60%;
-    min-width: 420px;
     text-align: center;
 
     @media (max-width: 640px) {
-    width: 90%;
+    width: 80%;
     }
 
     ul {
