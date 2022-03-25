@@ -7,7 +7,6 @@ import {
   ImageSection,
   FrontTileImg,
   BackTileImg,
-
 } from './OfferPage.styled';
 
 const OfferPage = () => {
@@ -48,13 +47,34 @@ const OfferPage = () => {
             zależności od wybranej przez Ciebie opcji w ciągu 3-7 dni otrzymasz
             zalecenia/jadłospis i wszelkie wskazówki. Teraz czas na Ciebie,
             działaj!
-            <ul>
-              <li>1. Wybierz formę współpracy</li>
-              <li>2. Wypełnij ankietę dietetyczną</li>
-              <li>3. Odbierz plan działania</li>
-            </ul>
+          </p>
+          <ul>
+            <li>1. Wybierz formę współpracy</li>
+            <li>2. Wypełnij ankietę dietetyczną</li>
+            <li>3. Odbierz plan działania</li>
+          </ul>
+          <p>
             Opcja konsultacji obejmuje całodobową opiekę z mojej strony; w razie
             jakichkolwiek wątpliwości jestem dla Ciebie.
+          </p>
+        </div>
+      </InformativeSection>
+      <InformativeSection>
+        <h2>Dlaczego warto wybrać pakiety współpracy?</h2>
+        <div>
+          <p>
+            Wybierając współpracę minimum na miesiąc, możesz liczyć na maksimum
+            wsparcia z mojej strony. Dietoterapia z moją pomocą to nie tylko
+            gotowy jadłospis, ale również wskazówki, które ułatwią Ci
+            podejmowanie codziennych decyzji w walce o zdrowszy organizm i
+            lepsze samopoczucie. Na podstawie wywiadu wyszczególniam te
+            zachowania, które na pozór mało istotne mogą zrobić dużą różnicę w
+            Twoim dotychczasowym samopoczuciu. W ramach wykupionego pakietu masz
+            również możliwość stałego kontaktu ze mną w razie jakichkolwiek
+            pytań czy wątpliwości. Wybierając długofalową współpracę dajesz
+            sobie szansę na wdrożenie nawyków żywieniowych, które zostaną z Tobą
+            na dłużej i będą narzędziem, dzięki któremu będziesz w stanie
+            rozszyfrować potrzeby swojego organizmu.
           </p>
         </div>
       </InformativeSection>

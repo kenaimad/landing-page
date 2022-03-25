@@ -29,7 +29,7 @@ export const InformativeSection = styled.section`
   font-family: 'Poppins', sans-serif;
   color: #c4ab9d;
   font-weight: bold;
-  text-align: center;
+  text-align: justify;
   min-width: 420px;
 
   div {
@@ -40,6 +40,10 @@ export const InformativeSection = styled.section`
     ul {
       text-align: center;
       list-style: none;
+    }
+
+    p {
+      text-align: justify;
     }
   }
 `;
