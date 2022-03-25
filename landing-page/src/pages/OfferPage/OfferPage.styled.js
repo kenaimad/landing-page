@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
 `;
 
 export const StyledTitle = styled.h1`
@@ -42,7 +43,7 @@ export const InformativeSection = styled.section`
 
 export const StyledImage = styled.img`
   object-fit: contain;
-  width: 15vw;
+  width: 15%;
   min-width: 100px;
   flex-grow: 1;
   margin-right: 1rem;
@@ -56,7 +57,8 @@ export const StyledImage = styled.img`
 
 export const ConsultationSection = styled.section`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 
   div {
     position: relative;
@@ -71,7 +73,7 @@ export const FrontTileImg = styled.img`
   width: 400px;
   top: 0;
   left: 0;
-  transition: all 0.7s ease-in-out;
+  //transition: all 0.7s ease-in-out;
   z-index: 1;
 
   &:hover {

@@ -12,9 +12,10 @@ export default createGlobalStyle`
 `;
 
 export const ApplicationWrapper = styled.div`
-  //height: 120vh;
+
 `;
 
 export const UniversalComponentContainer = styled.div`
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 `;
