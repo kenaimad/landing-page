@@ -13,7 +13,17 @@ export const StyledTitle = styled.h1`
   font-family: 'Poppins', sans-serif;
   color: #c4ab9d;
   text-align: center;
+  font-weight: bold;
 `;
+
+export const StyledHeader = styled.h2`
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline 1px solid #c4ab9d;
+`;
+
 
 export const ImagesSection = styled.section`
   margin: 2rem;
@@ -31,20 +41,28 @@ export const InformativeSection = styled.section`
   font-weight: bold;
   text-align: justify;
   min-width: 420px;
+  width: 100%;
+
 
   div {
-    width: 60vw;
-
+    width: 60%;
+    min-width: 420px;
     text-align: center;
 
+    @media (max-width: 640px) {
+    width: 100%;
+    }
+
     ul {
-      text-align: center;
+      text-align: justify;
       list-style: none;
     }
 
     p {
       text-align: justify;
     }
+
+
   }
 `;
 

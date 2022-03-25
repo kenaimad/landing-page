@@ -61,12 +61,13 @@ export const StyledListElement = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  display: block;
-  height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   text-decoration: none;
   font-size: 1.2rem;
   color: #c4ab9d;
-  padding-top: 1rem;
 
   &.active {
     background-color: #f7ebe5;

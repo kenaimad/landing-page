@@ -7,6 +7,7 @@ import {
   ImageSection,
   FrontTileImg,
   BackTileImg,
+  StyledHeader,
 } from './OfferPage.styled';
 
 const OfferPage = () => {
@@ -36,7 +37,7 @@ const OfferPage = () => {
         />
       </ImagesSection>
       <InformativeSection>
-        <h2>Z czym to się je?</h2>
+        <StyledHeader>Z czym to się je?</StyledHeader>
         <div>
           <p>
             W zależności od preferencji, wybierz plan współpracy: konsultacja w
@@ -60,7 +61,7 @@ const OfferPage = () => {
         </div>
       </InformativeSection>
       <InformativeSection>
-        <h2>Dlaczego warto wybrać pakiety współpracy?</h2>
+        <StyledHeader>Dlaczego warto wybrać pakiety współpracy?</StyledHeader>
         <div>
           <p>
             Wybierając współpracę minimum na miesiąc, możesz liczyć na maksimum

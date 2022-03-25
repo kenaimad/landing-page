@@ -22,7 +22,7 @@ const Navbar = () => {
     if (document.documentElement.clientWidth < 640) {
       setIsOpen(false);
     }
-  }
+  };
 
   return (
     <StyledNavContainer>
