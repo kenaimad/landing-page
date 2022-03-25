@@ -6,6 +6,7 @@ export const StyledContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 80%;
+  min-width: 420px;
 `;
 
 export const StyledTitle = styled.h1`
@@ -31,7 +32,8 @@ export const InformativeSection = styled.section`
   text-align: center;
 
   div {
-    width: 50vw;
+    width: 60vw;
+
     text-align: center;
 
     ul {
@@ -55,44 +57,56 @@ export const StyledImage = styled.img`
   }
 `;
 
-export const ConsultationSection = styled.section`
+export const ImageSection = styled.section`
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  align-items: center;
+  width: 80%;
+
+  @media (max-width: 640px) {
+    flex-wrap: wrap;
+  }
 
   div {
     position: relative;
-    //z-index: -1;
+    width: 60vw;
+    
+    @media (max-width: 640px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
   }
 `;
 
 export const FrontTileImg = styled.img`
   position: relative;
   object-fit: contain;
-  height: 400px;
-  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
   top: 0;
   left: 0;
-  //transition: all 0.7s ease-in-out;
   z-index: 1;
 
   &:hover {
     z-index: 0;
   }
+
 `;
 
 export const BackTileImg = styled.img`
   position: absolute;
   object-fit: contain;
-  height: 400px;
-  width: 400px;
+  max-width: 100%;
+  max-height: 100%;
   top: 0px;
   left: 0px;
   z-index: 0;
-
 
   &:hover {
     z-index: 1;
   }
 
+  @media (max-width: 640px) {
+    z-index: 1;
+  }
 `;

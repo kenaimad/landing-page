@@ -4,9 +4,10 @@ import {
   StyledImage,
   StyledTitle,
   InformativeSection,
-  ConsultationSection,
+  ImageSection,
   FrontTileImg,
   BackTileImg,
+
 } from './OfferPage.styled';
 
 const OfferPage = () => {
@@ -57,7 +58,7 @@ const OfferPage = () => {
           </p>
         </div>
       </InformativeSection>
-      <ConsultationSection>
+      <ImageSection>
         <div>
           <FrontTileImg
             src={require('./images/offerImages/1st1.png')}
@@ -78,8 +79,8 @@ const OfferPage = () => {
             alt="Konsultacja kontrolna"
           />
         </div>
-      </ConsultationSection>
-      <ConsultationSection>
+      </ImageSection>
+      <ImageSection>
         <div>
           <FrontTileImg
             src={require('./images/offerImages/3rd1.png')}
@@ -100,7 +101,29 @@ const OfferPage = () => {
             alt="Jadłospis na dwa tygodnie"
           />
         </div>
-      </ConsultationSection>
+      </ImageSection>
+      <ImageSection>
+        <div>
+          <FrontTileImg
+            src={require('./images/monthly/1-1.png')}
+            alt="Jadłospis na dwa tygodnie"
+          />
+          <BackTileImg
+            src={require('./images/monthly/1-2.png')}
+            alt="Jadłospis na dwa tygodnie"
+          />
+        </div>
+        <div>
+          <FrontTileImg
+            src={require('./images/monthly/2-1.png')}
+            alt="Jadłospis na dwa tygodnie"
+          />
+          <BackTileImg
+            src={require('./images/monthly/2-2.png')}
+            alt="Jadłospis na dwa tygodnie"
+          />
+        </div>
+      </ImageSection>
     </StyledContainer>
   );
 };
