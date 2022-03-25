@@ -30,6 +30,7 @@ export const InformativeSection = styled.section`
   color: #c4ab9d;
   font-weight: bold;
   text-align: center;
+  min-width: 420px;
 
   div {
     width: 60vw;
