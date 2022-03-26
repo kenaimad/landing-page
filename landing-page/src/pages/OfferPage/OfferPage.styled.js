@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
   justify-content: center;
   width: 80%;
   min-width: 330px;
+  background-color: white;
 `;
 
 export const StyledTitle = styled.h1`
@@ -24,7 +25,6 @@ export const StyledHeader = styled.h2`
   text-decoration: underline 1px solid #c4ab9d;
 `;
 
-
 export const ImagesSection = styled.section`
   margin: 2rem;
   display: flex;
@@ -39,17 +39,17 @@ export const InformativeSection = styled.section`
   font-family: 'Poppins', sans-serif;
   color: #c4ab9d;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
   min-width: 300px;
   width: 100%;
 
-
   div {
-    width: 60%;
+    width: 80%;
     text-align: center;
+    margin: 1rem 1rem;
 
     @media (max-width: 640px) {
-    width: 80%;
+      width: 80%;
     }
 
     ul {
@@ -58,10 +58,8 @@ export const InformativeSection = styled.section`
     }
 
     p {
-      text-align: justify;
+      text-align: left;
     }
-
-
   }
 `;
 
@@ -83,7 +81,7 @@ export const ImageSection = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 65%;
 
   @media (max-width: 640px) {
     flex-wrap: wrap;
@@ -92,11 +90,11 @@ export const ImageSection = styled.section`
   div {
     position: relative;
     width: 60vw;
-    
+
     @media (max-width: 640px) {
-    width: 100%;
-    flex-wrap: wrap;
-  }
+      width: 100%;
+      flex-wrap: wrap;
+    }
   }
 `;
 
@@ -112,7 +110,6 @@ export const FrontTileImg = styled.img`
   &:hover {
     z-index: 0;
   }
-
 `;
 
 export const BackTileImg = styled.img`

@@ -7,6 +7,7 @@ export const StyledFooter = styled.section`
   //height: 3rem;
   width: 100%;
   border-top: 1px solid #c4ab9d;
+  background-color: white;
 `;
 
 export const StyledContainer = styled.div`

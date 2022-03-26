@@ -13,7 +13,7 @@ import {
 const OfferPage = () => {
   return (
     <StyledContainer>
-      <StyledTitle>W czym moge Ci pomóc?</StyledTitle>
+      <StyledTitle>W czym mogę Ci pomóc?</StyledTitle>
       <ImagesSection>
         <StyledImage
           src={require('./images/diseases/1.png')}

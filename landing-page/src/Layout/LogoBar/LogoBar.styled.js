@@ -6,8 +6,8 @@ export const StyledContainer = styled.div`
   justify-content: center;
   height: 9rem;
   width: 100%;
-  //background-color: red;
-  //background-color: yellow;
+  background-color: white;
+
   z-index: 5;
 
   @media (max-width: 640px) {

@@ -12,7 +12,7 @@ export default createGlobalStyle`
 `;
 
 export const ApplicationWrapper = styled.div`
-
+  background-image: url('https://i.ibb.co/vxKxfKf/tlo.png');
 `;
 
 export const UniversalComponentContainer = styled.div`
