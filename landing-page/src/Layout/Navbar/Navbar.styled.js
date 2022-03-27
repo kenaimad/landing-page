@@ -13,7 +13,19 @@ export const StyledNavContainer = styled.div`
   z-index: 5;
 
   a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+
+    p {
+      margin: 0;
+    }
+
+    &:hover {
+      color: #c4ab9d;
+    }
+
   }
 
   @media (max-width: 640px) {

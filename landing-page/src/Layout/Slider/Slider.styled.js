@@ -7,13 +7,22 @@ import styled from 'styled-components';
 export const StyledSlider = styled(Slider)`
   max-height: 100%;
   width: 100%;
-  height: fit-content;
+  margin-bottom: 2rem;
+
+  .slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .slick-list {
     margin: 0 -5px;
+    height: 100%;
+    width: 100%;
   }
   .slick-slide > div {
     padding: 0 5px;
+
   }
 
   .slick-prev:before {
@@ -21,6 +30,14 @@ export const StyledSlider = styled(Slider)`
     color: #c4ab9d;
     font-size: 30px;
     font-weight: bolder;
+
+
+  }
+
+  .slick-next {
+    right: -15px;
+    //margin: 15px;
+
   }
 
   .slick-next:before {
@@ -28,9 +45,12 @@ export const StyledSlider = styled(Slider)`
     color: #c4ab9d;
     font-size: 30px;
     font-weight: bolder;
+
   }
 `;
 
 export const StyledSliderImage = styled.img`
-  width: auto;
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
 `;

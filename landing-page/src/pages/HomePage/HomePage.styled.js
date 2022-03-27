@@ -1,15 +1,13 @@
 import styled from 'styled-components';
 
 export const StyledHomePageContainer = styled.div`
-  //margin: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   max-width: 80%;
   background-color: white;
-  height: 100vh;
-  //background-image: url('https://i.ibb.co/vxKxfKf/tlo.png');
+
 
   img {
   }
@@ -31,6 +29,7 @@ max-height:100%;
 export const GallerySection = styled.section`
   display: flex;
   justify-content: center;
+  align-items: center;
   //height: 200px;
   max-width: 80%;
 `;
