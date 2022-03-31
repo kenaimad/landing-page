@@ -2,7 +2,7 @@ import { StyledSlider, StyledSliderImage } from './Slider.styled';
 
 const StyledCarousel = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,

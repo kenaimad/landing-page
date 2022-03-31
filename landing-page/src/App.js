@@ -13,6 +13,7 @@ import Footer from './Layout/Footer/Footer';
 
 import { ApplicationWrapper } from './Global.styled';
 
+
 function App() {
   return (
     <Router>

@@ -14,14 +14,42 @@ export const StyledTitle = styled.h1`
   font-weight: bolder;
   margin: 2rem;
 `;
-export const StyledForm = styled(Form)``;
+export const StyledForm = styled(Form)`
+    textarea.ant-input{
+      border: 1px solid #c4ab9d;
+
+      &:hover {
+      background-color: #f7ebe5;
+      border: 1px solid #c4ab9d;
+    }
+
+    &:focus {
+    background-color: #f7ebe5;
+    border: 1px solid #c4ab9d;
+    box-shadow: none;
+  }
+    }
+`;
 export const StyledInput = styled(Input)`
   border: 1px solid #c4ab9d;
 
   &.active {
-      background-color: red;
-      color: black;
+    //background-color: red;
+    color: black;
+  }
+
+  &:focus {
+    background-color: #f7ebe5;
+    border: 1px solid #c4ab9d;
+    box-shadow: none;
+  }
+
+  &:hover {
+      background-color: #f7ebe5;
+      border: 1px solid #c4ab9d;
     }
+
+
 `;
 export const StyledButton = styled(Button)`
   background-color: white;
@@ -39,10 +67,16 @@ export const StyledButton = styled(Button)`
 `;
 
 export const StyledItem = styled(Form.Item)`
+  min-width: 60vw;
+
   label {
     width: 120px;
     font-family: 'Poppins', sans-serif;
     color: #c4ab9d;
     font-weight: bolder;
+  }
+
+  textarea {
+    width: 100%;
   }
 `;

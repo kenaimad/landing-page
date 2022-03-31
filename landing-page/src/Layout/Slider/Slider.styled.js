@@ -30,10 +30,12 @@ export const StyledSlider = styled(Slider)`
     color: #c4ab9d;
     font-size: 30px;
     font-weight: bolder;
-
-
   }
 
+  div .slick-active {
+    max-height: 200px;
+
+  }
   .slick-next {
     right: -15px;
     //margin: 15px;
@@ -50,7 +52,7 @@ export const StyledSlider = styled(Slider)`
 `;
 
 export const StyledSliderImage = styled.img`
-  height: 100%;
-  width: 100%;
-  object-fit:cover;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit:scale-down;
 `;
