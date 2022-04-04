@@ -10,12 +10,12 @@ import {
 } from './ContactForm.styled';
 
 const validateMessages = {
-  required: '${label} jest wymagany!',
+  required: "To pole jest wymagane!",
   types: {
-    email: '${label} nie jest prawidłowym adresem mailowym!',
+    email: "To nie jest prawidłowy adres mailowy!",
   },
 };
-/* eslint-enable no-template-curly-in-string */
+
 
 const ContactForm = () => {
   const [isMessageSend, setIsMessageSend] = useState(false);
