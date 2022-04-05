@@ -8,6 +8,7 @@ import {
   FrontTileImg,
   BackTileImg,
   StyledHeader,
+  TileContainer,
 } from './OfferPage.styled';
 
 const OfferPage = () => {
@@ -55,8 +56,10 @@ const OfferPage = () => {
             <li>3. Odbierz plan działania</li>
           </ul>
           <p>
-            Opcja konsultacji obejmuje całodobową opiekę z mojej strony; w razie
-            jakichkolwiek wątpliwości jestem dla Ciebie.
+            Zalecenia i plan dietetyczny, który ode mnie otrzymasz opiera się na
+            realnych celach i produktach, które dostaniesz w każdym sklepie.
+            Razem dopasowujemy plan dietetyczny do Twoich preferencji, smaków i
+            czasu, który możesz poświęcić na przyrządzanie posiłków w kuchni.
           </p>
         </div>
       </InformativeSection>
@@ -80,7 +83,7 @@ const OfferPage = () => {
         </div>
       </InformativeSection>
       <ImageSection>
-        <div>
+        <TileContainer>
           <FrontTileImg
             src={require('./images/offerImages/1st1.png')}
             alt="Pierwsza konsultacja"
@@ -89,8 +92,8 @@ const OfferPage = () => {
             src={require('./images/offerImages/1st2.png')}
             alt="Pierwsza konsultacja"
           />
-        </div>
-        <div>
+        </TileContainer>
+        <TileContainer>
           <FrontTileImg
             src={require('./images/offerImages/2nd1.png')}
             alt="Konsultacja kontrolna"
@@ -99,10 +102,10 @@ const OfferPage = () => {
             src={require('./images/offerImages/2nd2.png')}
             alt="Konsultacja kontrolna"
           />
-        </div>
+        </TileContainer>
       </ImageSection>
       <ImageSection>
-        <div>
+        <TileContainer>
           <FrontTileImg
             src={require('./images/offerImages/3rd1.png')}
             alt="Jadłospis na tydzień"
@@ -111,8 +114,8 @@ const OfferPage = () => {
             src={require('./images/offerImages/3rd2.png')}
             alt="Jadłospis na tydzień"
           />
-        </div>
-        <div>
+        </TileContainer>
+        <TileContainer>
           <FrontTileImg
             src={require('./images/offerImages/4th1.png')}
             alt="Jadłospis na dwa tygodnie"
@@ -121,10 +124,10 @@ const OfferPage = () => {
             src={require('./images/offerImages/4th2.png')}
             alt="Jadłospis na dwa tygodnie"
           />
-        </div>
+        </TileContainer>
       </ImageSection>
       <ImageSection>
-        <div>
+        <TileContainer>
           <FrontTileImg
             src={require('./images/monthly/1-1.png')}
             alt="Jadłospis na dwa tygodnie"
@@ -133,8 +136,8 @@ const OfferPage = () => {
             src={require('./images/monthly/1-2.png')}
             alt="Jadłospis na dwa tygodnie"
           />
-        </div>
-        <div>
+        </TileContainer>
+        <TileContainer>
           <FrontTileImg
             src={require('./images/monthly/2-1.png')}
             alt="Jadłospis na dwa tygodnie"
@@ -143,7 +146,7 @@ const OfferPage = () => {
             src={require('./images/monthly/2-2.png')}
             alt="Jadłospis na dwa tygodnie"
           />
-        </div>
+        </TileContainer>
       </ImageSection>
     </StyledContainer>
   );

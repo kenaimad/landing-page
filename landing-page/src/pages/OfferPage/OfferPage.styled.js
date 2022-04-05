@@ -58,9 +58,20 @@ export const InformativeSection = styled.section`
     }
 
     p {
-      text-align: left;
+      //text-align: left;
     }
   }
+`;
+
+export const TileContainer = styled.div`
+    position: relative;
+    width: 40%;
+    max-width: 500px;
+
+    @media (max-width: 640px) {
+      width: 100%;
+      flex-wrap: wrap;
+    }
 `;
 
 export const StyledImage = styled.img`
@@ -81,20 +92,10 @@ export const ImageSection = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 65%;
+  width: 100%;
 
   @media (max-width: 640px) {
     flex-wrap: wrap;
-  }
-
-  div {
-    position: relative;
-    width: 60vw;
-
-    @media (max-width: 640px) {
-      width: 100%;
-      flex-wrap: wrap;
-    }
   }
 `;
 
