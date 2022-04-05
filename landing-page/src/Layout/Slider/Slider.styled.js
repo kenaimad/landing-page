@@ -5,8 +5,8 @@ import Slider from 'react-slick';
 import styled from 'styled-components';
 
 export const StyledSlider = styled(Slider)`
-  max-height: 100%;
-  width: 100%;
+  //max-height: 100%;
+  width: 80%;
   margin-bottom: 2rem;
 
   .slick-slider {
@@ -47,12 +47,12 @@ export const StyledSlider = styled(Slider)`
     color: #c4ab9d;
     font-size: 30px;
     font-weight: bolder;
-
   }
+
 `;
 
 export const StyledSliderImage = styled.img`
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 150px;
+  //max-width: 100%;
   object-fit:scale-down;
 `;
