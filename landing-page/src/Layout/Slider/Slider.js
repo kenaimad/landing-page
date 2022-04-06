@@ -1,11 +1,11 @@
 import { StyledSlider, StyledSliderImage } from './Slider.styled';
 
 const StyledCarousel = () => {
-  var settings = {
+  let settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 1,
   };
 

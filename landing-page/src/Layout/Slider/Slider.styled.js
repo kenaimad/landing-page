@@ -6,23 +6,29 @@ import styled from 'styled-components';
 
 export const StyledSlider = styled(Slider)`
   //max-height: 100%;
-  width: 80%;
+  margin-top: 20px;
+  max-height: 100%;
+  width: 100%;
   margin-bottom: 2rem;
 
   .slick-slider {
     display: flex;
+    height: 100%;
     justify-content: center;
     align-items: center;
   }
 
   .slick-list {
-    margin: 0 -5px;
     height: 100%;
-    width: 100%;
+    margin: 0 -5px;
+
+    .slick-track {
+      height: 100%;
+    }
   }
+
   .slick-slide > div {
     padding: 0 5px;
-
   }
 
   .slick-prev:before {
@@ -30,16 +36,15 @@ export const StyledSlider = styled(Slider)`
     color: #c4ab9d;
     font-size: 30px;
     font-weight: bolder;
+    top: 40%;
   }
 
   div .slick-active {
-    max-height: 200px;
-
   }
-  .slick-next {
-    right: -15px;
-    //margin: 15px;
 
+  .slick-next {
+    right: -25px;
+    //margin: 15px;
   }
 
   .slick-next:before {
@@ -48,11 +53,11 @@ export const StyledSlider = styled(Slider)`
     font-size: 30px;
     font-weight: bolder;
   }
-
 `;
 
 export const StyledSliderImage = styled.img`
-  max-height: 150px;
-  //max-width: 100%;
-  object-fit:scale-down;
+  max-height: 100%;
+  max-width: 100%;
+  //height: 300px;
+  object-fit: scale-down;
 `;

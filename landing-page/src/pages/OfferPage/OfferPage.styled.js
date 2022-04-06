@@ -68,10 +68,7 @@ export const TileContainer = styled.div`
     width: 40%;
     max-width: 500px;
 
-    @media (max-width: 640px) {
-      width: 100%;
-      flex-wrap: wrap;
-    }
+
 `;
 
 export const StyledImage = styled.img`
