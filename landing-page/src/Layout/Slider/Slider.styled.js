@@ -6,7 +6,6 @@ import styled from 'styled-components';
 
 export const StyledSlider = styled(Slider)`
   //max-height: 100%;
-  margin-top: 20px;
   max-height: 100%;
   width: 100%;
   margin-bottom: 2rem;
