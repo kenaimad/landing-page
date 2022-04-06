@@ -55,6 +55,7 @@ export const PhotoDescriptionContainer = styled.div`
   }
 
   @media (max-width: 1080px) {
+      padding-top: 10vh;
       width: 100%;
     }
 `;
