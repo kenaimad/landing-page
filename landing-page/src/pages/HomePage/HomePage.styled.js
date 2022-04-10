@@ -37,7 +37,7 @@ export const PhotoDescriptionContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 360px;
+  //min-width: 360px;
 
 
   h2 {
@@ -55,7 +55,7 @@ export const PhotoDescriptionContainer = styled.div`
   }
 
   @media (max-width: 1080px) {
-      padding-top: 10vh;
+      padding-top: 15vh;
       width: 100%;
     }
 `;
