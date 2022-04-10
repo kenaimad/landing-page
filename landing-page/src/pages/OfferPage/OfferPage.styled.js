@@ -66,8 +66,12 @@ export const InformativeSection = styled.section`
 export const TileContainer = styled.div`
     position: relative;
     width: 40%;
-    max-width: 500px;
-
+    //max-width: 500px;
+    
+    @media (max-width: 640px) {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
 
 `;
 
@@ -87,6 +91,7 @@ export const StyledImage = styled.img`
 
 export const ImageSection = styled.section`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 100%;

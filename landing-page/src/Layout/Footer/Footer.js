@@ -30,7 +30,7 @@ const Footer = () => {
           >
             <div>
               <img src={require('./images/mail-icon.png')} alt="Email icon" />
-              <p>martynaosien@gmail.com</p>
+              <p>dobrzejem.dietetyk@gmail.com</p>
             </div>
           </a>
         </StyledContactInfo>
