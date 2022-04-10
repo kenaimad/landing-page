@@ -13,6 +13,7 @@ export const StyledHomePageContainer = styled.div`
 export const MainSectionStyled = styled.section`
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
   max-height: 70%;
 
@@ -23,7 +24,7 @@ export const MainSectionStyled = styled.section`
 `;
 
 export const PhotoWrapper = styled.div`
-
+  width: 40%;
   margin: 1rem;
   max-width: 800px;
   //max-height: 40vh;
@@ -32,7 +33,7 @@ export const PhotoWrapper = styled.div`
 `;
 
 export const PhotoDescriptionContainer = styled.div`
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
