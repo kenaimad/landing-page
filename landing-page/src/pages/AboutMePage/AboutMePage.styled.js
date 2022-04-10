@@ -41,6 +41,8 @@ export const TextContainer = styled.div`
 
   @media (max-width: 1200px) {
     width: 100%;
+    font-size: 0.5rem;
+    padding: 0;
     order: 2;
   }
 `;
