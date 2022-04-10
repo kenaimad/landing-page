@@ -52,10 +52,6 @@ const AboutMePage = () => {
             zależności od aktualnych potrzeb; poprawa trawienia, wyciszenie czy
             wsparcie odporności.
           </p>
-          <p>
-            W świecie kipiącym od informacji, diet cud chciałabym Ci pokazać jak
-            JEŚĆ DOBRZE i nie zwariować.
-          </p>
         </TextContainer>
       </StyledSection>
       <StyledSection>
@@ -74,6 +70,10 @@ const AboutMePage = () => {
             czyni truciznę ;) W zdrowej diecie jest miejsce na pizzę i sałatkę,
             ważne by sposób żywienia grał z Tobą! To dieta ma pasować do Ciebie,
             nie na odwrót.
+          </p>
+          <p>
+            W świecie kipiącym od informacji, diet cud chciałabym Ci pokazać jak
+            JEŚĆ DOBRZE i nie zwariować.
           </p>
         </TextContainer>
         <ImageContainer>
