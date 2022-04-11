@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledContainer = styled.section`
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   align-items: center;
   justify-content: center;
   background-color: white;
@@ -12,6 +12,10 @@ export const StyledContainer = styled.section`
   color: #c4ab9d;
   text-align: center;
   font-weight: bold;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 `;
 
 export const StyledSection = styled.section`
@@ -43,14 +47,14 @@ export const TextContainer = styled.div`
 
   @media (max-width: 1200px) {
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding: 0;
     order: 2;
   }
 `;
 
 export const ImageContainer = styled.div` 
-  width: 30%;
+  width: 50%;
 
   @media (max-width: 1200px) {
     width: 100%;

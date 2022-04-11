@@ -6,7 +6,7 @@ export const StyledHomePageContainer = styled.div`
   align-items: center;
   align-content: center;
   flex-direction: column;
-  max-width: 80%;
+  max-width: 90%;
   background-color: white;
 `;
 
@@ -24,16 +24,20 @@ export const MainSectionStyled = styled.section`
 `;
 
 export const PhotoWrapper = styled.div`
-  width: 40%;
+  width: 60%;
   margin: 1rem;
   max-width: 800px;
   //max-height: 40vh;
   padding: 1rem;
 
+  @media (max-width: 1080px) {
+      width: 100%;
+    }
+
 `;
 
 export const PhotoDescriptionContainer = styled.div`
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;

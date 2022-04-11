@@ -5,9 +5,14 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   min-width: 330px;
   background-color: white;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    padding: 1rem;
+  }
 `;
 
 export const StyledTitle = styled.h1`
@@ -53,7 +58,7 @@ export const InformativeSection = styled.section`
     }
 
     ul {
-      text-align: justify;
+      text-align: left;
       list-style: none;
     }
 
