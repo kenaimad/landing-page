@@ -70,6 +70,8 @@ export const InformativeSection = styled.section`
 
 export const TileContainer = styled.div`
     position: relative;
+    display: flex;
+    justify-content: center;
     width: 40%;
     //max-width: 500px;
     
@@ -111,8 +113,7 @@ export const FrontTileImg = styled.img`
   object-fit: contain;
   max-width: 100%;
   max-height: 100%;
-  top: 0;
-  left: 0;
+
   z-index: 1;
 
   &:hover {
@@ -125,8 +126,7 @@ export const BackTileImg = styled.img`
   object-fit: contain;
   max-width: 100%;
   max-height: 100%;
-  top: 0px;
-  left: 0px;
+
   z-index: 0;
 
   &:hover {
