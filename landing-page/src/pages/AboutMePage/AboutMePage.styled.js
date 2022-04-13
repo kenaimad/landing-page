@@ -33,7 +33,7 @@ export const StyledSection = styled.section`
 export const TextContainer = styled.div`
   width: 70%;
   p {
-    padding: 2rem;
+    padding: .5rem;
     text-align: center;
 
     h1 {

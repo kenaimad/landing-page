@@ -54,11 +54,11 @@ export const InformativeSection = styled.section`
     margin: 1rem 1rem;
 
     @media (max-width: 640px) {
-      width: 80%;
+      width: 100%;
     }
 
     ul {
-      text-align: left;
+      text-align: center;
       list-style: none;
     }
 
