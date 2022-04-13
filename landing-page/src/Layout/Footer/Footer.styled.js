@@ -14,6 +14,17 @@ export const StyledContainer = styled.div`
   width: 40vw;
   display: flex;
   justify-content: center;
+
+  a { 
+    margin: .5rem;
+  }
+
+  div {
+
+    p{
+      margin: 0;
+    }
+  }
 `;
 
 export const StyledLogo = styled.div`
