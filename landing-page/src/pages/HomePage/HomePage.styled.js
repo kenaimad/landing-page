@@ -8,6 +8,10 @@ export const StyledHomePageContainer = styled.div`
   flex-direction: column;
   max-width: 90%;
   background-color: white;
+
+  @media (max-width: 1080px) {
+      width: 100%;
+    }
 `;
 
 export const MainSectionStyled = styled.section`
@@ -32,6 +36,8 @@ export const PhotoWrapper = styled.div`
 
   @media (max-width: 1080px) {
       width: 100%;
+      max-width: 100%;
+
     }
 
 `;
