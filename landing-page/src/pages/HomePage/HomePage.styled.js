@@ -11,6 +11,7 @@ export const StyledHomePageContainer = styled.div`
 
   @media (max-width: 1080px) {
       width: 100%;
+      max-width: 100%;
     }
 `;
 
