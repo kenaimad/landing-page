@@ -33,6 +33,8 @@ export const StyledHeader = styled.h2`
 export const ImagesSection = styled.section`
   margin: 2rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 `;
 
@@ -87,9 +89,10 @@ export const StyledImage = styled.img`
   width: 15%;
   min-width: 100px;
   flex-grow: 1;
-  margin-right: 1rem;
+  padding-left: 1rem;
   padding-top: 0.5rem;
   transition: all 0.3s ease-in;
+  
 
   &:hover {
     transform: scale(1.1);
