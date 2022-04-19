@@ -2,7 +2,17 @@ import { useEffect, useState } from 'react';
 import { StyledSlider, StyledSliderImage } from './Slider.styled';
 
 const StyledCarousel = () => {
-  const [slidesNum, setSlidesNum] = useState(5);
+  //let number;
+
+  const getInitialNumber = () => {
+    if (document.documentElement.clientWidth < 1080) {
+      return 1;
+    } else {
+      return 5;
+    }
+  }
+
+  const [slidesNum, setSlidesNum] = useState(getInitialNumber);
 
   const handleWidthChange = () => {
     console.log("zmieniam");

@@ -13,7 +13,7 @@ export const StyledSlider = styled(Slider)`
   width: 100%;
   margin-bottom: 2rem;
 
-  @media (max-width: 1080px) {
+  @media (max-width: 800px) {
     //display: none;
     width: 50%;
   }
