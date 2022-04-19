@@ -37,7 +37,7 @@ export const StyledSection = styled.section`
 export const TextContainer = styled.div`
   width: 70%;
   p {
-    padding: .5rem;
+    padding: 0.5rem;
     text-align: center;
 
     h1 {
@@ -57,7 +57,7 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const ImageContainer = styled.div` 
+export const ImageContainer = styled.div`
   width: 50%;
 
   @media (max-width: 1200px) {
