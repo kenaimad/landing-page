@@ -23,9 +23,18 @@ export const MainSection = styled.section`
   width: 100%;
   height: 80vh;
 
+  @media (max-width: 1080px) {
+    flex-direction: column;
+  }
+
   div {
     &:first-child {
       border-right: 3px solid #c4ab9d;
+
+      @media (max-width: 1080px) {
+        border-right: none;
+        border-bottom: 3px solid #c4ab9d;
+      }
     }
 
     display: flex;
@@ -49,8 +58,8 @@ export const NavLink = styled(Link)`
   font-size: 5rem;
 
   &:hover {
-      color: #6b5854;
-    }
+    color: #6b5854;
+  }
 
   @media (max-width: 640px) {
   }
