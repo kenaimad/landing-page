@@ -64,7 +64,7 @@ export const PhotoDescriptionContainer = styled.div`
   }
 
   @media (max-width: 1080px) {
-    padding-top: 15vh;
+    padding-top: 5vh;
     padding-left: .5rem;
     padding-right: .5rem;
     width: 100%;
@@ -75,7 +75,7 @@ export const PhotoDescriptionContainer = styled.div`
   }
 
   @media (max-height: 500px) {
-    padding-top: 25vh;
+    //padding-top: 25vh;
   }
 `;
 

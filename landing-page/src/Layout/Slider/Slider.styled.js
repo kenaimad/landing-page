@@ -11,7 +11,8 @@ export const StyledSlider = styled(Slider)`
   margin-bottom: 2rem;
 
   @media (max-width: 640px) {
-    display: none;
+    //display: none;
+    width: 50%;
   }
 
   .slick-slider {

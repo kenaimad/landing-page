@@ -1,11 +1,27 @@
+import { useEffect, useState } from 'react';
 import { StyledSlider, StyledSliderImage } from './Slider.styled';
 
 const StyledCarousel = () => {
+  const [slidesNum, setSlidesNum] = useState(5);
+
+  const handleWidthChange = () => {
+    console.log("zmieniam");
+    if (document.documentElement.clientWidth < 640) {
+      setSlidesNum(1);
+    } else {
+      setSlidesNum(5);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleWidthChange);
+  }, []);
+
   let settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: slidesNum,
     slidesToScroll: 1,
   };
 
