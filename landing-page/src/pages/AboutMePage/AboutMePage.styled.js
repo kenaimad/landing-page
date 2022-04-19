@@ -28,6 +28,10 @@ export const StyledSection = styled.section`
   @media (max-width: 1200px) {
     flex-wrap: wrap;
   }
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const TextContainer = styled.div`

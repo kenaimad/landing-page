@@ -10,9 +10,9 @@ export const StyledHomePageContainer = styled.div`
   background-color: white;
 
   @media (max-width: 1080px) {
-      width: 100%;
-      max-width: 100%;
-    }
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 export const MainSectionStyled = styled.section`
@@ -23,9 +23,9 @@ export const MainSectionStyled = styled.section`
   max-height: 70%;
 
   @media (max-width: 1080px) {
-      width: 100%;
-      flex-direction: column;
-    }
+    width: 100%;
+    flex-direction: column;
+  }
 `;
 
 export const PhotoWrapper = styled.div`
@@ -36,10 +36,9 @@ export const PhotoWrapper = styled.div`
   padding: 1rem;
 
   @media (max-width: 1080px) {
-      width: 100%;
-      max-width: 100%;
-    }
-
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 export const PhotoDescriptionContainer = styled.div`
@@ -50,25 +49,34 @@ export const PhotoDescriptionContainer = styled.div`
   align-items: center;
   //min-width: 360px;
 
-
   h2 {
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  text-align: center;
-  font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #c4ab9d;
+    text-align: center;
+    font-weight: bold;
   }
 
   p {
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  text-align: center;
-  font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #c4ab9d;
+    text-align: center;
+    font-weight: bold;
   }
 
   @media (max-width: 1080px) {
-      padding-top: 15vh;
-      width: 100%;
-    }
+    padding-top: 15vh;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    width: 100%;
+  }
+
+  @media (max-height: 810px) {
+    padding-top: 20vh;
+  }
+
+  @media (max-height: 500px) {
+    padding-top: 25vh;
+  }
 `;
 
 export const StyledPhoto = styled.img`
@@ -85,7 +93,7 @@ export const GallerySection = styled.section`
   max-width: 80%;
 
   @media (max-width: 1080px) {
-      width: 100%;
-      max-width: 100%;
-    }
+    width: 100%;
+    max-width: 100%;
+  }
 `;
