@@ -6,11 +6,14 @@ import styled from 'styled-components';
 
 export const StyledSlider = styled(Slider)`
   //max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-height: 100%;
   width: 100%;
   margin-bottom: 2rem;
 
-  @media (max-width: 640px) {
+  @media (max-width: 1080px) {
     //display: none;
     width: 50%;
   }
@@ -68,7 +71,8 @@ export const StyledSlider = styled(Slider)`
 `;
 
 export const StyledSliderImage = styled.img`
-  max-width: 100%;
+  width: 100%;
+
   height: 30vh;
   object-fit: scale-down;
 `;

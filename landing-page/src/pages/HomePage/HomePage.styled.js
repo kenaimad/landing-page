@@ -71,7 +71,7 @@ export const PhotoDescriptionContainer = styled.div`
   }
 
   @media (max-height: 810px) {
-    padding-top: 20vh;
+    padding-top: 5vh;
   }
 
   @media (max-height: 500px) {
