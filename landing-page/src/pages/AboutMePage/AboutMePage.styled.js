@@ -52,7 +52,7 @@ export const TextContainer = styled.div`
   @media (max-width: 1200px) {
     width: 100%;
     font-size: 1rem;
-    padding: 0;
+    padding: 1rem;
     order: 2;
   }
 `;

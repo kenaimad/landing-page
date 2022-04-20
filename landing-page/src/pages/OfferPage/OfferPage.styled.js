@@ -57,6 +57,7 @@ export const InformativeSection = styled.section`
 
     @media (max-width: 640px) {
       width: 100%;
+      padding: 1rem;
     }
 
     ul {

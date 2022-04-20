@@ -65,8 +65,8 @@ export const PhotoDescriptionContainer = styled.div`
 
   @media (max-width: 1080px) {
     padding-top: 5vh;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
   }
 
