@@ -74,8 +74,8 @@ export const PhotoDescriptionContainer = styled.div`
     padding-top: 5vh;
   }
 
-  @media (max-height: 500px) {
-    //padding-top: 25vh;
+  @media (max-height: 505px) {
+    padding-top: 10vh;
   }
 `;
 

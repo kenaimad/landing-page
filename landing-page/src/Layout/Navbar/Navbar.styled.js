@@ -49,6 +49,18 @@ export const StyledListContainer = styled.div`
     width: 100vw;
     margin-top: 6rem;
   }
+
+  @media (max-height: 650px) {
+    height: 85vh;
+  }
+
+  @media (max-height: 650px) {
+    height: 85vh;
+  }
+
+  @media (max-height: 550px) {
+    height: 80vh;
+  }
 `;
 
 export const StyledListElement = styled.div`

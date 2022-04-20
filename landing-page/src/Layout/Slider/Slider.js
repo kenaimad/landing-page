@@ -15,8 +15,7 @@ const StyledCarousel = () => {
   const [slidesNum, setSlidesNum] = useState(getInitialNumber);
 
   const handleWidthChange = () => {
-    console.log("zmieniam");
-    if (document.documentElement.clientWidth < 1080) {
+    if (document.documentElement.clientWidth < 800) {
       setSlidesNum(1);
     } else {
       setSlidesNum(5);
