@@ -36,17 +36,18 @@ export const StyledSection = styled.section`
 
 export const TextContainer = styled.div`
   width: 70%;
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #c4ab9d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
   p {
     padding: 0.5rem;
     text-align: center;
-
-    h1 {
-      font-family: 'Poppins', sans-serif;
-      color: #c4ab9d;
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
   }
 
   @media (max-width: 1200px) {

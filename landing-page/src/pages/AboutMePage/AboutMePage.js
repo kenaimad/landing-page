@@ -11,8 +11,8 @@ const AboutMePage = () => {
     <StyledContainer>
       <StyledSection>
         <TextContainer>
+          <h1>Cześć!</h1>
           <p>
-            <h1>Cześć!</h1>
             Mam na imię Martyna i jestem licencjonowanym dietetykiem klinicznym,
             aktualnie na ostatniej prostej do uzyskania tytułu magistra na
             Uniwersytecie Medycznym we Wrocławiu. Wyznaję holistyczne podejście
