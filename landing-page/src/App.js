@@ -12,6 +12,7 @@ import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './Layout/Footer/Footer';
 import ArticlesPage from './pages/KnowledgePage/ArticlesPage/ArticlesPage';
 import RecipesPage from './pages/KnowledgePage/RecipesPage/RecipesPage';
+import RecipePage from './pages/KnowledgePage/RecipesPage/RecipePage/RecipePage';
 
 import { ApplicationWrapper } from './Global.styled';
 
@@ -30,6 +31,7 @@ function App() {
             <Route path="/knowledge" element={<KnowledgePage />} />
             <Route path="/knowledge/articles" element={<ArticlesPage />} />
             <Route path="/knowledge/recipes" element={<RecipesPage />} />
+            <Route path="/knowledge/recipes/:id" element={<RecipePage />} />
             <Route path="/offer" element={<OfferPage />} />
             <Route path="/shop" element={<ShopPage />} />
             <Route path="/contact" element={<ContactPage />} />

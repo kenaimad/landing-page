@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledRecipesPage = styled.div`
+export const StyledRecipePage = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;

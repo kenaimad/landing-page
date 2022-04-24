@@ -1,20 +1,21 @@
-import { useEffect } from 'react';
-import { StyledImgContainer, StyledRecipe } from './Recipe.styled';
+import { StyledImgContainer, StyledRecipe, NavLink } from './Recipe.styled';
 
 const Recipe = (props) => {
-
-
   return (
-    <StyledRecipe>
-      <StyledImgContainer>
-        <img src={props.photo} alt="Recipe"></img>
-      </StyledImgContainer>
-      <h2>{props.name}</h2>
-      <p>Składniki:</p>
-      <p>{props.ingrediends[0]}</p>
-      <p>{props.ingrediends[1]}</p>
-      <p>{props.ingrediends[2]}</p>
-    </StyledRecipe>
+    <NavLink to={`/knowledge/recipes/${props.id}`}>
+      <StyledRecipe>
+        <StyledImgContainer>
+          <img src={props.photo} alt="Recipe"></img>
+        </StyledImgContainer>
+        <h2>{props.name}</h2>
+        <h3>Składniki:</h3>
+        <ul>
+          {props.ingrediends.map((ingrediend) => (
+            <li key={ingrediend}>{ingrediend}</li>
+          ))}
+        </ul>
+      </StyledRecipe>
+    </NavLink>
   );
 };
 
