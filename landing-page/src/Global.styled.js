@@ -18,5 +18,4 @@ export const ApplicationWrapper = styled.div`
 export const UniversalComponentContainer = styled.div`
   display: flex;
   justify-content: center;
-
 `;

@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
-export const StyledRecipePage = styled.div`
+export const StyledRecipeList = styled.div`
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  align-content: center;
-  width: 90%;
-  height: 90vh;
+  width: 100%;
   background-color: white;
-  
+  flex-wrap: wrap;
+
   @media (max-width: 1080px) {
     width: 100%;
     max-width: 100%;
