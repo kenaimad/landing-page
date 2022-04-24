@@ -10,29 +10,32 @@ const RecipePage = () => {
     Preparation: '',
   });
 
-  const getRecipe = async () => {
-    const response = await fetch(
-      `https://landing-page-3dc5c-default-rtdb.firebaseio.com/Recipes/${id}.json`
-    );
-
-    if (!response.ok) {
-      throw new Error('Something went wrong!');
-    }
-
-    const responseData = await response.json();
-    setRecipeObj(responseData);
-    console.log(recipeObj.Ingrediends);
-  };
-
-  useEffect(() => {
-    getRecipe();
-  }, []);
   let { id } = useParams();
+  
+  useEffect(() => {
+    const getRecipe = async () => {
+      const response = await fetch(
+        `https://landing-page-3dc5c-default-rtdb.firebaseio.com/Recipes/${id}.json`
+      );
+
+      if (!response.ok) {
+        throw new Error('Something went wrong!');
+      }
+
+      const responseData = await response.json();
+      setRecipeObj(responseData);
+      //console.log(recipeObj.Ingrediends);
+    };
+    getRecipe();
+  }, [id]);
+
+  
+
   return (
     <StyledRecipePage>
       <h1>{recipeObj.Name}</h1>
       <StyledImgContainer>
-        <img src={recipeObj.Photo} />
+        <img alt="Meal" src={recipeObj.Photo} />
       </StyledImgContainer>
       <h3>Składniki:</h3>
       <ul>
