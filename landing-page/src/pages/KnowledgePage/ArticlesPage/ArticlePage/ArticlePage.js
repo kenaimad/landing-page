@@ -36,7 +36,6 @@ const ArticlePage = () => {
       <StyledImgContainer>
         <img alt="Article" src={articleObj.photo} />
       </StyledImgContainer>
-      <h3>Składniki:</h3>
       <p>{articleObj.text}</p>
     </StyledArticlePage>
   );
