@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledRecipePage = styled.div`
+export const StyledArticlePage = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

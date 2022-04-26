@@ -56,8 +56,8 @@ const AboutMePage = () => {
       </StyledSection>
       <StyledSection>
         <TextContainer>
+          <h1>Dlaczego powinnam zostać Twoim dietetykiem?</h1>
           <p>
-            <h1>Dlaczego powinnam zostać Twoim dietetykiem?</h1>
             Jestem osobą z odpowiednimi kwalifikacjami oraz doświadczeniem
             klinicznym, dzięki czemu możesz być pewny, że jesteś pod opieką
             specjalisty. Chciałabym podczas naszej współpracy nauczyć Cię

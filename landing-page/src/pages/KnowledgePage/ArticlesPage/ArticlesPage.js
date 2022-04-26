@@ -1,6 +1,11 @@
+import ArticlesList from "./ArticlesList/ArticlesList";
+import { StyledArticlesPage } from "./ArticlesPage.styled";
+
 const ArticlesPage = () => {
     return (
-        <div>Artykuły</div>
+        <StyledArticlesPage>
+            <ArticlesList />
+        </StyledArticlesPage>
     );
 }
 
