@@ -51,15 +51,11 @@ export const StyledListContainer = styled.div`
   }
 
   @media (max-height: 650px) {
-    height: 85vh;
-  }
-
-  @media (max-height: 650px) {
-    height: 85vh;
+    //height: 85vh;
   }
 
   @media (max-height: 550px) {
-    height: 80vh;
+    //height: 80vh;
   }
 `;
 
