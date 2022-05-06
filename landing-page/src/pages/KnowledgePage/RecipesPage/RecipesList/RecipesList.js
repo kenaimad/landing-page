@@ -7,9 +7,8 @@ const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
 
   const getRecipes = async () => {
-    //let newRecipes = [];
     const response = await fetch(
-      `https://landing-page-3dc5c-default-rtdb.firebaseio.com/Recipes.json`
+      `https://landing-page-3dc5c-default-rtdb.firebaseio.com/recipes.json`
     );
 
     if (!response.ok) {
@@ -24,10 +23,11 @@ const RecipeList = () => {
     for (const key in responseData) {
       loadedMeals.push({
         id: key,
-        name: responseData[key].Name,
-        preparation: responseData[key].Preparation,
-        photo: responseData[key].Photo,
-        ingrediends: responseData[key].Ingrediends
+        name: responseData[key].name,
+        preparation: responseData[key].preparation,
+        photo: responseData[key].photo,
+        mainPhoto: responseData[key].mainPhoto,
+        //ingrediends: responseData[key].ingrediends
       });
       
     }
@@ -42,14 +42,15 @@ const RecipeList = () => {
 
   return (
     <StyledRecipeList>
-        {recipes.map((meal) => (
+        {recipes.map((recipe) => (
           <Recipe
-            key={meal.id}
-            id={meal.id}
-            name={meal.name}
-            preparation={meal.preparation}
-            photo={meal.photo}
-            ingrediends={meal.ingrediends}
+            key={recipe.id}
+            id={recipe.id}
+            name={recipe.name}
+            preparation={recipe.preparation}
+            photo={recipe.photo}
+            mainPhoto = {recipe.mainPhoto}
+            //ingrediends={recipe.ingrediends}
           />
         ))}
     </StyledRecipeList>

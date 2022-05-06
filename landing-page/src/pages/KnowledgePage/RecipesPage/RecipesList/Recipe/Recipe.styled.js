@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 
 export const NavLink = styled(Link)`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #c4ab9d;
-  margin: 1rem;
   min-width: 200px;
+  max-width: 20%;
+  margin: 1rem;
 `;
 
 export const StyledRecipe = styled.div`
@@ -18,28 +16,6 @@ export const StyledRecipe = styled.div`
   justify-content: center;
 
 
-
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-
-  h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-
-  ul {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    font-weight: bold;
-  }
 `;
 
 export const StyledImgContainer = styled.div`
@@ -47,8 +23,9 @@ export const StyledImgContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 90%;
-  max-width: 100px;
-  height: 100px;
+  max-width: 100%;
+  height: 100%;
+
   img {
     max-width: 100%;
     max-height: 100%;

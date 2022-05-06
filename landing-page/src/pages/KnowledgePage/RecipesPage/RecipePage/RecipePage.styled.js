@@ -5,7 +5,7 @@ export const StyledRecipePage = styled.div`
   flex-direction: column;
   align-items: center;
   align-content: center;
-  width: 50%;
+  width: 90%;
   height: 90vh;
   background-color: white;
   padding: 1rem;
@@ -35,8 +35,8 @@ export const StyledRecipePage = styled.div`
 
 export const StyledImgContainer = styled.div`
   text-align: center;
-  width: 60%;
-  max-height: 50vh;
+  max-height: 40vh;
+  margin: 1rem;
 
   img {
     max-width: 100%;

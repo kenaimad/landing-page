@@ -15,7 +15,7 @@ const RecipePage = () => {
   useEffect(() => {
     const getRecipe = async () => {
       const response = await fetch(
-        `https://landing-page-3dc5c-default-rtdb.firebaseio.com/Recipes/${id}.json`
+        `https://landing-page-3dc5c-default-rtdb.firebaseio.com/recipes/${id}.json`
       );
 
       if (!response.ok) {
@@ -33,18 +33,18 @@ const RecipePage = () => {
 
   return (
     <StyledRecipePage>
-      <h1>{recipeObj.Name}</h1>
+      <h1>{recipeObj.name}</h1>
       <StyledImgContainer>
-        <img alt="Meal" src={recipeObj.Photo} />
+        <img alt="Meal" src={recipeObj.photo} />
       </StyledImgContainer>
-      <h3>Składniki:</h3>
+      {/* <h3>Składniki:</h3>
       <ul>
         {recipeObj.Ingrediends.map((ingrediend) => (
           <li key={ingrediend}>{ingrediend}</li>
         ))}
-      </ul>
+      </ul> */}
       <h3>Sposób przygotowania:</h3>
-      <p>{recipeObj.Preparation}</p>
+      <p>{recipeObj.preparation}</p>
     </StyledRecipePage>
   );
 };
