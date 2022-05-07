@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { IngrediendsContainer } from './IngrediendsList.styled';
 
 const IngrediendsList = (props) => {
