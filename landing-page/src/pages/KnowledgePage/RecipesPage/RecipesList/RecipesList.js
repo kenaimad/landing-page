@@ -23,16 +23,12 @@ const RecipeList = () => {
     for (const key in responseData) {
       loadedMeals.push({
         id: key,
-        name: responseData[key].name,
-        preparation: responseData[key].preparation,
-        photo: responseData[key].photo,
         mainPhoto: responseData[key].mainPhoto,
-        //ingrediends: responseData[key].ingrediends
       });
       
     }
 
-    //console.log(loadedMeals[0].ingrediends);
+
     setRecipes(loadedMeals);
   };
 
@@ -46,11 +42,7 @@ const RecipeList = () => {
           <Recipe
             key={recipe.id}
             id={recipe.id}
-            name={recipe.name}
-            preparation={recipe.preparation}
-            photo={recipe.photo}
             mainPhoto = {recipe.mainPhoto}
-            //ingrediends={recipe.ingrediends}
           />
         ))}
     </StyledRecipeList>

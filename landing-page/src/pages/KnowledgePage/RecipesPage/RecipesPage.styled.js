@@ -5,7 +5,7 @@ export const StyledRecipesPage = styled.div`
   justify-content: center;
   align-items: flex-start;
   align-content: center;
-  width: 90%;
+  width: 80%;
   min-height: 90vh;
   background-color: white;
   

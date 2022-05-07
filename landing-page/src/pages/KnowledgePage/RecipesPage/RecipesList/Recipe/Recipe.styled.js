@@ -4,8 +4,13 @@ import { Link } from 'react-router-dom';
 export const NavLink = styled(Link)`
   display: flex;
   min-width: 200px;
-  max-width: 20%;
-  margin: 1rem;
+  max-width: 23%;
+  margin: 2rem;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 export const StyledRecipe = styled.div`

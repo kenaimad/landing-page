@@ -1,19 +1,22 @@
 import { StyledImgContainer, StyledRecipePage } from './RecipePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import IngrediendsSection from './Ingrediends/IngrediendsSection';
 
 const RecipePage = () => {
   const [recipeObj, setRecipeObj] = useState({
-    Photo: '',
-    Ingrediends: [],
-    Name: '',
-    Preparation: '',
+    mainPhoto: '',
+    photo: '',
+    ingrediends: [],
+    name: '',
+    preparation: '',
   });
 
   let { id } = useParams();
-  
+
   useEffect(() => {
     const getRecipe = async () => {
+      let newRecipe;
       const response = await fetch(
         `https://landing-page-3dc5c-default-rtdb.firebaseio.com/recipes/${id}.json`
       );
@@ -23,13 +26,13 @@ const RecipePage = () => {
       }
 
       const responseData = await response.json();
-      setRecipeObj(responseData);
-      //console.log(recipeObj.Ingrediends);
+      newRecipe = responseData;
+
+      setRecipeObj(newRecipe);
     };
     getRecipe();
   }, [id]);
 
-  
 
   return (
     <StyledRecipePage>
@@ -37,12 +40,9 @@ const RecipePage = () => {
       <StyledImgContainer>
         <img alt="Meal" src={recipeObj.photo} />
       </StyledImgContainer>
-      {/* <h3>Składniki:</h3>
-      <ul>
-        {recipeObj.Ingrediends.map((ingrediend) => (
-          <li key={ingrediend}>{ingrediend}</li>
-        ))}
-      </ul> */}
+      <h1>Składniki:</h1>
+      <IngrediendsSection ingrediends={recipeObj.ingrediends}/>
+
       <h3>Sposób przygotowania:</h3>
       <p>{recipeObj.preparation}</p>
     </StyledRecipePage>

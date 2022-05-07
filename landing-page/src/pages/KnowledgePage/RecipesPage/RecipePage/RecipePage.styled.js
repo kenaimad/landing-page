@@ -5,8 +5,7 @@ export const StyledRecipePage = styled.div`
   flex-direction: column;
   align-items: center;
   align-content: center;
-  width: 90%;
-  height: 90vh;
+  width: 60%;
   background-color: white;
   padding: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -21,10 +20,27 @@ export const StyledRecipePage = styled.div`
     font-size: 1.6rem;
   }
 
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #c4ab9d;
+    text-align: center;
+    font-weight: bold;
+  }
+
   h3 {
     font-family: 'Poppins', sans-serif;
     color: #c4ab9d;
     font-weight: bold;
+  }
+
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #c4ab9d;
+    font-weight: bold;
+  }
+
+  ul {
+    margin-left: 2rem;
   }
 
   @media (max-width: 1080px) {
