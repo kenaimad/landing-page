@@ -9,7 +9,7 @@ const ArticleList = () => {
   const getArticles = async () => {
     //let newRecipes = [];
     const response = await fetch(
-      `https://landing-page-3dc5c-default-rtdb.firebaseio.com/Articles.json`
+      `https://landing-page-3dc5c-default-rtdb.firebaseio.com/articles.json`
     );
 
     if (!response.ok) {
@@ -24,8 +24,6 @@ const ArticleList = () => {
     for (const key in responseData) {
       loadedArticles.push({
         id: key,
-        title: responseData[key].title,
-        text: responseData[key].text,
         photo: responseData[key].photo,
       });
       
@@ -45,9 +43,8 @@ const ArticleList = () => {
           <Article
             key={article.id}
             id={article.id}
-            title={article.title}
             photo={article.photo}
-            text={article.text}
+
           />
         ))}
     </StyledArticleList>

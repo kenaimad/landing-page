@@ -3,16 +3,14 @@ import { Link } from 'react-router-dom';
 
 export const NavLink = styled(Link)`
   display: flex;
+  width: 80%;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #c4ab9d;
   margin: 1rem;
-  min-width: 200px;
 `;
 
 export const StyledArticle = styled.div`
   width: 100%;
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,8 +46,7 @@ export const StyledImgContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 90%;
-  max-width: 100px;
-  height: 100px;
+
   img {
     max-width: 100%;
     max-height: 100%;
