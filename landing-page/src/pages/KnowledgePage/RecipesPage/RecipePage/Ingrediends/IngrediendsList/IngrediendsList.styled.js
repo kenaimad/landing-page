@@ -5,4 +5,9 @@ export const IngrediendsContainer = styled.section`
     flex-direction: column;
     justify-content: flex-start;
     width: 70%;
+
+    @media (max-width: 800px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `

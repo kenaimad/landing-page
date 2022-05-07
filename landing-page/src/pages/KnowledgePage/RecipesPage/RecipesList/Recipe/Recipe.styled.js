@@ -11,6 +11,11 @@ export const NavLink = styled(Link)`
   &:hover {
     transform: scale(1.1);
   }
+
+  @media (max-width: 800px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 export const StyledRecipe = styled.div`

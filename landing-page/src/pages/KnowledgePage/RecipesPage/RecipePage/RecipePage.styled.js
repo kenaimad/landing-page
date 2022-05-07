@@ -43,7 +43,7 @@ export const StyledRecipePage = styled.div`
     margin-left: 2rem;
   }
 
-  @media (max-width: 1080px) {
+  @media (max-width: 800px) {
     width: 100%;
     max-width: 100%;
   }
@@ -57,5 +57,10 @@ export const StyledImgContainer = styled.div`
   img {
     max-width: 100%;
     max-height: 100%;
+
+    @media (max-width: 800px) {
+    width: 100%;
+    max-width: 100%;
+  }
   }
 `;
