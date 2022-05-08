@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
-export const StyledBibliography = styled.div`
-
+export const BibliographSection = styled.div`
+  ol {
+    list-style-type: upper-roman;
+  }
   
   @media (max-width: 1080px) {
 
   }
 `;
+

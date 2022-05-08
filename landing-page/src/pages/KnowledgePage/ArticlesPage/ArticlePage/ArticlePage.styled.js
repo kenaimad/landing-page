@@ -19,7 +19,7 @@ export const StyledArticlePage = styled.div`
     font-weight: bold;
     font-size: 1.6rem;
   }
-
+  
   h3 {
     font-family: 'Poppins', sans-serif;
     color: #c4ab9d;

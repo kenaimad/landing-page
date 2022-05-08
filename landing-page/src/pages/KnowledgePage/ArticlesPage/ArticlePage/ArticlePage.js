@@ -40,7 +40,7 @@ const ArticlePage = () => {
         <img alt="Article" src={articleObj.photo} />
       </StyledImgContainer>
       <ArticleContent content={articleObj.content}/>
-      <h2>Piśmiennictwo</h2>
+      <h3>Piśmiennictwo</h3>
       <ArticleBibliography bibliography={articleObj.bibliography}/>
     </StyledArticlePage>
   );
