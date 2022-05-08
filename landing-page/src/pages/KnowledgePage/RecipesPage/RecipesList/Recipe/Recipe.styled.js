@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const NavLink = styled(Link)`
   display: flex;
-  min-width: 200px;
-  max-width: 23%;
+  width: 24%;
   margin: 2rem;
   transition: all 0.3s ease-in;
 
@@ -12,7 +11,7 @@ export const NavLink = styled(Link)`
     transform: scale(1.1);
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     width: 100%;
     max-width: 100%;
   }

@@ -5,8 +5,7 @@ export const StyledArticlePage = styled.div`
   flex-direction: column;
   align-items: center;
   align-content: center;
-  width: 50%;
-  height: 90vh;
+  width: 80%;
   background-color: white;
   padding: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -35,8 +34,9 @@ export const StyledArticlePage = styled.div`
 
 export const StyledImgContainer = styled.div`
   text-align: center;
-  width: 60%;
-  max-height: 50vh;
+  width: 100%;
+  max-height: 20vh;
+  margin: 2rem;
 
   img {
     max-width: 100%;

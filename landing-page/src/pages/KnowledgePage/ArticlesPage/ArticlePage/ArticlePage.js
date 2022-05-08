@@ -25,7 +25,6 @@ const ArticlePage = () => {
       }
 
       const responseData = await response.json();
-      console.log(responseData.content);
       setArticleObj(responseData);
 
     };
@@ -41,6 +40,7 @@ const ArticlePage = () => {
         <img alt="Article" src={articleObj.photo} />
       </StyledImgContainer>
       <ArticleContent content={articleObj.content}/>
+      <h2>Piśmiennictwo</h2>
       <ArticleBibliography bibliography={articleObj.bibliography}/>
     </StyledArticlePage>
   );
