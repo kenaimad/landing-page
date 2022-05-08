@@ -5,7 +5,7 @@ export const BibliographSection = styled.div`
     list-style-type: upper-roman;
   }
   
-  @media (max-width: 1080px) {
+  @media (max-width: 900px) {
 
   }
 `;
