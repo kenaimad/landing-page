@@ -129,6 +129,28 @@ const OfferPage = () => {
       <ImageSection>
         <TileContainer>
           <FrontTileImg
+            src={require('./images/offerImages/5th1.png')}
+            alt="Pierwsza konsultacja"
+          />
+          <BackTileImg
+            src={require('./images/offerImages/5th2.png')}
+            alt="Pierwsza konsultacja"
+          />
+        </TileContainer>
+        <TileContainer>
+          <FrontTileImg
+            src={require('./images/offerImages/6th1.png')}
+            alt="Konsultacja kontrolna"
+          />
+          <BackTileImg
+            src={require('./images/offerImages/6th2.png')}
+            alt="Konsultacja kontrolna"
+          />
+        </TileContainer>
+      </ImageSection>
+      <ImageSection>
+        <TileContainer>
+          <FrontTileImg
             src={require('./images/monthly/1-1.png')}
             alt="Jadłospis na dwa tygodnie"
           />

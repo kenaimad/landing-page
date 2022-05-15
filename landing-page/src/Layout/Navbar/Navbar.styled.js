@@ -25,7 +25,6 @@ export const StyledNavContainer = styled.div`
     &:hover {
       color: #c4ab9d;
     }
-
   }
 
   @media (max-width: 640px) {
@@ -112,6 +111,10 @@ export const IconWrapper = styled.div`
   width: 10vw;
   min-width: 100px;
   transition: all 0.3s ease-in;
+
+  &:hover {
+    transform: scale(1.2);
+  }
   //flex-grow: 1;
 
   p {
@@ -132,11 +135,6 @@ export const StyledIcon = styled.img`
   align-self: center;
   width: 50px;
   cursor: pointer;
-  transition: all 0.3s ease-in;
-
-  &:hover {
-    transform: scale(1.2);
-  }
 `;
 
 export const LogoWrapper = styled.div`
