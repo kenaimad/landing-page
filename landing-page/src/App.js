@@ -10,10 +10,10 @@ import OfferPage from './pages/OfferPage/OfferPage';
 import ShopPage from './pages/ShopPage/ShopPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './Layout/Footer/Footer';
-import ArticlesPage from './pages/KnowledgePage/ArticlesPage/ArticlesPage';
-import ArticlePage from './pages/KnowledgePage/ArticlesPage/ArticlePage/ArticlePage';
-import RecipesPage from './pages/KnowledgePage/RecipesPage/RecipesPage';
-import RecipePage from './pages/KnowledgePage/RecipesPage/RecipePage/RecipePage';
+import ArticlesPage from './pages/ArticlesPage/ArticlesPage';
+import ArticlePage from './pages/ArticlesPage/ArticlePage/ArticlePage';
+import RecipesPage from './pages/RecipesPage/RecipesPage';
+import RecipePage from './pages/RecipesPage/RecipePage/RecipePage';
 
 import { ApplicationWrapper } from './Global.styled';
 
