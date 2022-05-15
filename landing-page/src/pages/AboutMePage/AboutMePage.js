@@ -26,7 +26,7 @@ const AboutMePage = () => {
         </TextContainer>
         <ImageContainer>
           <StyledImg
-            src={require('./pictures/1cytryna.png')}
+            src={require('./pictures/1.png')}
             alt="Zdjęcie z grejpfrutem."
           />
         </ImageContainer>
@@ -34,8 +34,8 @@ const AboutMePage = () => {
       <StyledSection>
         <ImageContainer>
           <StyledImg
-            src={require('./pictures/papryka.png')}
-            alt="Zdjęcie z grejpfrutem."
+            src={require('./pictures/2.png')}
+            alt="Zdjęcie z papryką."
           />
         </ImageContainer>
         <TextContainer>
@@ -78,8 +78,8 @@ const AboutMePage = () => {
         </TextContainer>
         <ImageContainer>
           <StyledImg
-            src={require('./pictures/kropki.png')}
-            alt="Zdjęcie z grejpfrutem."
+            src={require('./pictures/3.png')}
+            alt="Zdjęcie z kropkami."
           />
         </ImageContainer>
       </StyledSection>
