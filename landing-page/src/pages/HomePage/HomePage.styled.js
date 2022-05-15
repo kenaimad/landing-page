@@ -20,7 +20,7 @@ export const MainSectionStyled = styled.section`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  max-height: 70%;
+  //max-height: 100%;
 
   @media (max-width: 1080px) {
     width: 100%;
@@ -31,7 +31,7 @@ export const MainSectionStyled = styled.section`
 export const PhotoWrapper = styled.div`
   width: 60%;
   margin: 1rem;
-  max-width: 800px;
+  //max-width: 800px;
   //max-height: 40vh;
   padding: 1rem;
 
@@ -54,6 +54,19 @@ export const PhotoDescriptionContainer = styled.div`
     color: #c4ab9d;
     text-align: center;
     font-weight: bold;
+    font-size: 2rem;
+
+    @media (max-width: 1600px) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 1300px) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 1080px) {
+      font-size: 1.6rem;
+    }
   }
 
   p {
@@ -61,6 +74,19 @@ export const PhotoDescriptionContainer = styled.div`
     color: #c4ab9d;
     text-align: center;
     font-weight: bold;
+    font-size: 1.5rem;
+
+    @media (max-width: 1600px) {
+      font-size: 1.3rem;
+    }
+
+    @media (max-width: 1300px) {
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 1080px) {
+      font-size: 1.5rem;
+    }
   }
 
   @media (max-width: 1080px) {
@@ -70,12 +96,12 @@ export const PhotoDescriptionContainer = styled.div`
     width: 100%;
   }
 
-  @media (max-height: 810px) {
+  @media (max-height: 1080px) {
     padding-top: 5vh;
   }
 
   @media (max-height: 505px) {
-    padding-top: 10vh;
+    //padding-top: 10vh;
   }
 `;
 
