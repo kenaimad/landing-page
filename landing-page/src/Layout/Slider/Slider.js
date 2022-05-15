@@ -8,7 +8,7 @@ const StyledCarousel = () => {
     if (document.documentElement.clientWidth < 1080) {
       return 1;
     } else {
-      return 5;
+      return 6;
     }
   }
 

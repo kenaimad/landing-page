@@ -90,7 +90,7 @@ export const GallerySection = styled.section`
   justify-content: center;
   align-items: center;
   //height: 200px;
-  max-width: 80%;
+  max-width: 90%;
 
   @media (max-width: 1080px) {
     width: 100%;
