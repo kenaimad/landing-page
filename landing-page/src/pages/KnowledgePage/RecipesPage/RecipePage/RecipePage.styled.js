@@ -11,6 +11,7 @@ export const StyledRecipePage = styled.div`
   font-family: 'Poppins', sans-serif;
   color: #c4ab9d;
   font-weight: bold;
+  min-height: 80vh;
 
   h1 {
     font-family: 'Poppins', sans-serif;
@@ -49,9 +50,13 @@ export const StyledRecipePage = styled.div`
   }
 `;
 
+export const PreparationContainer = styled.div`
+  //max-height: 500px;
+`
+
 export const StyledImgContainer = styled.div`
   text-align: center;
-  max-height: 40vh;
+  max-height: 500px;
   margin: 1rem;
 
   img {

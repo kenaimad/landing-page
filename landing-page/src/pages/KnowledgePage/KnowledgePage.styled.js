@@ -8,6 +8,7 @@ export const StyledKnowledgePageContainer = styled.div`
   align-content: center;
   flex-direction: column;
   width: 90%;
+  min-height: 80vh;
 
   background-color: white;
 

@@ -1,4 +1,4 @@
-import { StyledImgContainer, StyledRecipePage } from './RecipePage.styled';
+import { PreparationContainer, StyledImgContainer, StyledRecipePage } from './RecipePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import IngrediendsSection from './Ingrediends/IngrediendsSection';
@@ -33,7 +33,6 @@ const RecipePage = () => {
     getRecipe();
   }, [id]);
 
-
   return (
     <StyledRecipePage>
       <h1>{recipeObj.name}</h1>
@@ -41,10 +40,12 @@ const RecipePage = () => {
         <img alt="Meal" src={recipeObj.photo} />
       </StyledImgContainer>
       <h1>Składniki:</h1>
-      <IngrediendsSection ingrediends={recipeObj.ingrediends}/>
+      <IngrediendsSection ingrediends={recipeObj.ingrediends} />
 
       <h3>Sposób przygotowania:</h3>
-      <p>{recipeObj.preparation}</p>
+      <PreparationContainer>
+        <p>{recipeObj.preparation}</p>
+      </PreparationContainer>
     </StyledRecipePage>
   );
 };

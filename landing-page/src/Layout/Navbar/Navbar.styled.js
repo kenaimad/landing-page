@@ -113,7 +113,7 @@ export const IconWrapper = styled.div`
   transition: all 0.3s ease-in;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
   //flex-grow: 1;
 
