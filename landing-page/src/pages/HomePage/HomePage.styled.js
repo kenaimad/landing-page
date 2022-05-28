@@ -41,6 +41,26 @@ export const PhotoWrapper = styled.div`
   }
 `;
 
+export const Title = styled.h2`
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+
+  @media (max-width: 1600px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 1.6rem;
+  }
+`;
+
 export const PhotoDescriptionContainer = styled.div`
   width: 40%;
   display: flex;
@@ -94,6 +114,7 @@ export const PhotoDescriptionContainer = styled.div`
     padding-left: 1rem;
     padding-right: 1rem;
     width: 100%;
+    order: 2;
   }
 
   @media (max-height: 1080px) {
