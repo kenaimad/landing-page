@@ -34,20 +34,50 @@ export const StyledSection = styled.section`
   }
 `;
 
+export const Title = styled.h2`
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  display: none;
+
+  @media (max-width: 1080px) {
+    margin-top: 2rem;
+    display: block;
+  }
+`;
+
 export const TextContainer = styled.div`
   width: 70%;
-  
+
   h1 {
     font-family: 'Poppins', sans-serif;
     color: #c4ab9d;
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
+
+    @media (max-width: 1080px) {
+      display: none;
+    }
   }
 
   p {
     padding: 0.5rem;
-    text-align: center;
+    font-size: 1.1rem;
+
+    @media (max-width: 1600px) {
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 1300px) {
+      font-size: 1rem;
+    }
+
+    @media (max-width: 1080px) {
+      font-size: 1.3rem;
+    }
   }
 
   @media (max-width: 1200px) {

@@ -4,11 +4,13 @@ import {
   StyledImg,
   ImageContainer,
   TextContainer,
+  Title,
 } from './AboutMePage.styled';
 
 const AboutMePage = () => {
   return (
     <StyledContainer>
+      <Title>Cześć!</Title>
       <StyledSection>
         <TextContainer>
           <h1>Cześć!</h1>

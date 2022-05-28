@@ -33,7 +33,7 @@ export const PhotoWrapper = styled.div`
   //margin: 1rem;
   //max-width: 800px;
   //max-height: 40vh;
-  padding: 1rem;
+  padding-bottom: 1rem;
 
   @media (max-width: 1080px) {
     width: 100%;
