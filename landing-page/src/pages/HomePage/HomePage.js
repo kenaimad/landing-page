@@ -6,12 +6,14 @@ import {
   StyledPhoto,
   MainSectionStyled,
   PhotoDescriptionContainer,
+  Title,
 } from './HomePage.styled';
 
 const HomePage = () => {
   return (
     <StyledHomePageContainer>
       <MainSectionStyled>
+        <Title>Cześć!</Title>
         <PhotoDescriptionContainer>
           <h2>Cześć!</h2>
           <p>
