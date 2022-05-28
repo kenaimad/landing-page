@@ -7,7 +7,6 @@ import HomePage from './pages/HomePage/HomePage';
 import AboutMePage from './pages/AboutMePage/AboutMePage';
 import KnowledgePage from './pages/KnowledgePage/KnowledgePage';
 import OfferPage from './pages/OfferPage/OfferPage';
-import ShopPage from './pages/ShopPage/ShopPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './Layout/Footer/Footer';
 import ArticlesPage from './pages/ArticlesPage/ArticlesPage';
@@ -35,7 +34,6 @@ function App() {
             <Route path="/knowledge/recipes" element={<RecipesPage />} />
             <Route path="/knowledge/recipes/:id" element={<RecipePage />} />
             <Route path="/offer" element={<OfferPage />} />
-            <Route path="/shop" element={<ShopPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </UniversalComponentContainer>
