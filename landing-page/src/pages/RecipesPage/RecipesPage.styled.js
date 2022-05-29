@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledRecipesPage = styled.div`
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   align-content: center;
   width: 80%;
   min-height: 90vh;
