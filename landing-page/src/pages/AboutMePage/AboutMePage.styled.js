@@ -65,18 +65,34 @@ export const TextContainer = styled.div`
 
   p {
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 
-    @media (max-width: 1600px) {
+    @media (max-width: 2100px) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 1900px) {
       font-size: 1.1rem;
     }
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1600px) {
       font-size: 1rem;
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 1300px) {
+      font-size: .8rem;
+    }
+
+    @media (max-width: 1200px) {
       font-size: 1.3rem;
+    }
+
+    @media (max-width: 700px) {
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 0.9rem;
     }
   }
 
