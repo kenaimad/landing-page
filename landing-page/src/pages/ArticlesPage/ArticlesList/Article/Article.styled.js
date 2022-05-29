@@ -45,12 +45,17 @@ export const StyledImgContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 50%;
+  transition: all 0.3s ease-in;
 
   img {
     max-width: 100%;
     max-height: 100%;
     //max-height: 100%;
     //border: 1px solid #c4ab9d;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 `;

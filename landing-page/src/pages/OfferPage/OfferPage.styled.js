@@ -20,6 +20,7 @@ export const StyledTitle = styled.h1`
   color: #c4ab9d;
   text-align: center;
   font-weight: bold;
+  margin-top: 1rem;
 `;
 
 export const StyledHeader = styled.h2`
