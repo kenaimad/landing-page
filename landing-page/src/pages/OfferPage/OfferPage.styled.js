@@ -63,26 +63,73 @@ export const InformativeSection = styled.section`
     ul {
       text-align: center;
       list-style: none;
+
+      font-size: 1.3rem;
+
+
+      @media (max-width: 1400px) {
+        font-size: 1.2rem;
+      }
+
+      @media (max-width: 1100px) {
+        font-size: 1.1rem;
+      }
+
+      @media (max-width: 900px) {
+        font-size: 1rem;
+      }
+
+      @media (max-width: 700px) {
+        font-size: .9rem;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 0.8rem;
+      }
     }
 
     p {
-      //text-align: left;
+      font-size: 1.4rem;
+
+
+      @media (max-width: 1400px) {
+        font-size: 1.2rem;
+      }
+
+      @media (max-width: 1100px) {
+        font-size: 1.1rem;
+      }
+
+      @media (max-width: 1300px) {
+        //font-size: 0.8rem;
+      }
+
+      @media (max-width: 1200px) {
+        //font-size: 1.3rem;
+      }
+
+      @media (max-width: 700px) {
+        //font-size: 1.1rem;
+      }
+
+      @media (max-width: 500px) {
+        //font-size: 0.9rem;
+      }
     }
   }
 `;
 
 export const TileContainer = styled.div`
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 35%;
-    //max-width: 500px;
-    
-    @media (max-width: 640px) {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  //max-width: 500px;
+
+  @media (max-width: 640px) {
     width: 100%;
     margin-bottom: 1.5rem;
   }
-
 `;
 
 export const StyledImage = styled.img`
@@ -93,7 +140,6 @@ export const StyledImage = styled.img`
   padding-left: 1rem;
   padding-top: 0.5rem;
   transition: all 0.3s ease-in;
-  
 
   &:hover {
     transform: scale(1.1);
