@@ -6,6 +6,7 @@ export const StyledRecipeList = styled.div`
   width: 100%;
   background-color: white;
   flex-wrap: wrap;
+  margin-top: 5rem;
 
   @media (max-width: 1080px) {
     width: 100%;

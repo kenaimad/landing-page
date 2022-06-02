@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const StyledRecipesPage = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  //justify-content: center;
+  align-items: flex-start;
   align-content: center;
   width: 80%;
-  min-height: 90vh;
+  min-height: 80vh;
   background-color: white;
   
   @media (max-width: 1080px) {
