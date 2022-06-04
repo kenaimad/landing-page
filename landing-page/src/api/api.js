@@ -48,3 +48,33 @@ export const getRecipesCall = async () => {
 
   return loadedMeals;
 };
+
+export const getRecipeCall = async (id) => {
+  let newRecipe;
+  const response = await fetch(
+    `https://landing-page-3dc5c-default-rtdb.firebaseio.com/recipes/${id}.json`
+  );
+
+  if (!response.ok) {
+    throw new Error('Something went wrong!');
+  }
+
+  const responseData = await response.json();
+  newRecipe = responseData;
+
+  return newRecipe;
+};
+
+export const getArticleCall = async (id) => {
+  const response = await fetch(
+    `https://landing-page-3dc5c-default-rtdb.firebaseio.com/articles/${id}.json`
+  );
+
+  if (!response.ok) {
+    throw new Error('Something went wrong!');
+  }
+
+  const responseData = await response.json();
+  return responseData;
+
+};

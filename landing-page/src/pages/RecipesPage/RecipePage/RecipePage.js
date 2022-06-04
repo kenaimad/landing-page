@@ -1,7 +1,12 @@
-import { PreparationContainer, StyledImgContainer, StyledRecipePage } from './RecipePage.styled';
+import {
+  PreparationContainer,
+  StyledImgContainer,
+  StyledRecipePage,
+} from './RecipePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import IngrediendsSection from './Ingrediends/IngrediendsSection';
+import { getRecipeCall } from '../../../api/api';
 
 const RecipePage = () => {
   const [recipeObj, setRecipeObj] = useState({
@@ -15,21 +20,12 @@ const RecipePage = () => {
   let { id } = useParams();
 
   useEffect(() => {
-    const getRecipe = async () => {
-      let newRecipe;
-      const response = await fetch(
-        `https://landing-page-3dc5c-default-rtdb.firebaseio.com/recipes/${id}.json`
-      );
-
-      if (!response.ok) {
-        throw new Error('Something went wrong!');
-      }
-
-      const responseData = await response.json();
-      newRecipe = responseData;
-
-      setRecipeObj(newRecipe);
+    const getRecipe = () => {
+      getRecipeCall(id).then((data) => {
+        setRecipeObj(data);
+      });
     };
+
     getRecipe();
   }, [id]);
 
