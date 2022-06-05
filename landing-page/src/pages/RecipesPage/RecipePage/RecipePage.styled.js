@@ -20,23 +20,23 @@ export const StyledRecipePage = styled.div`
     font-weight: bold;
 
     @media (max-width: 2000px) {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
     }
 
     @media (max-width: 1600px) {
+      font-size: 1.6rem;
+    }
+
+    @media (max-width: 1200px) {
       font-size: 1.5rem;
     }
 
     @media (max-width: 1200px) {
-      font-size: 1.4rem;
-    }
-
-    @media (max-width: 1200px) {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
 
     @media (max-width: 800px) {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
   }
 
