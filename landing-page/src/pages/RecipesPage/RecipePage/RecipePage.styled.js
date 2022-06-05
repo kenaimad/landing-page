@@ -18,7 +18,26 @@ export const StyledRecipePage = styled.div`
     color: #c4ab9d;
     text-align: center;
     font-weight: bold;
-    font-size: 1.6rem;
+
+    @media (max-width: 2000px) {
+      font-size: 1.6rem;
+    }
+
+    @media (max-width: 1600px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 800px) {
+      font-size: 1.5rem;
+    }
   }
 
   h2 {
@@ -32,6 +51,27 @@ export const StyledRecipePage = styled.div`
     font-family: 'Poppins', sans-serif;
     color: #c4ab9d;
     font-weight: bold;
+    font-size: 2rem;
+
+    @media (max-width: 2000px) {
+      font-size: 1.6rem;
+    }
+
+    @media (max-width: 1600px) {
+      font-size: 1.5rem;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 800px) {
+      font-size: 1.5rem;
+    }
   }
 
   h4 {
@@ -52,7 +92,28 @@ export const StyledRecipePage = styled.div`
 
 export const PreparationContainer = styled.div`
   //max-height: 500px;
-`
+  font-size: 1.5rem;
+
+  @media (max-width: 2000px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.3rem;
+  }
+`;
 
 export const StyledImgContainer = styled.div`
   text-align: center;
@@ -64,8 +125,8 @@ export const StyledImgContainer = styled.div`
     max-height: 100%;
 
     @media (max-width: 800px) {
-    width: 100%;
-    max-width: 100%;
-  }
+      width: 100%;
+      max-width: 100%;
+    }
   }
 `;
