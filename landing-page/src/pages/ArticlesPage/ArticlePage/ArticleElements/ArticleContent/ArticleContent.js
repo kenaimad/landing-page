@@ -17,7 +17,7 @@ const ArticleContent = (props) => {
         <>
           {paragraphsArray.map((paragraph) => (
             <StyledParagraph key={paragraph.subtitle}>
-              <h1>{paragraph.subtitle}</h1>
+              <h1><u>{paragraph.subtitle}</u></h1>
               <div>{paragraph.paragraph}</div>
             </StyledParagraph>
           ))}
