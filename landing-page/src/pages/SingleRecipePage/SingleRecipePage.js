@@ -2,13 +2,13 @@ import {
   PreparationContainer,
   StyledImgContainer,
   StyledRecipePage,
-} from './RecipePage.styled';
+} from './SingleRecipePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import IngrediendsSection from './Ingrediends/IngrediendsSection';
-import { getRecipeCall } from '../../../api/api';
+import { getRecipeCall } from '../../api/api';
 
-const RecipePage = () => {
+const SingleRecipePage = () => {
   const [recipeObj, setRecipeObj] = useState({
     mainPhoto: '',
     photo: '',
@@ -46,4 +46,4 @@ const RecipePage = () => {
   );
 };
 
-export default RecipePage;
+export default SingleRecipePage;

@@ -1,11 +1,11 @@
-import { StyledImgContainer, StyledArticlePage } from './ArticlePage.styled';
+import { StyledImgContainer, StyledArticlePage } from './SingleArticlePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ArticleContent from './ArticleElements/ArticleContent/ArticleContent';
 import ArticleBibliography from './ArticleElements/ArticleBibliography/ArticleBibliography';
 import { getArticleCall } from '../../api/api';
 
-const ArticlePage = () => {
+const SingleArticlePage = () => {
   const [articleObj, setArticleObj] = useState({
     photo: '',
     title: '',
@@ -36,4 +36,4 @@ const ArticlePage = () => {
   );
 };
 
-export default ArticlePage;
+export default SingleArticlePage;

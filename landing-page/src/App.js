@@ -10,9 +10,9 @@ import OfferPage from './pages/OfferPage/OfferPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './Layout/Footer/Footer';
 import ArticlesPage from './pages/ArticlesPage/ArticlesPage';
-import ArticlePage from './pages/SingleArticlePage/ArticlePage';
+import SingleArticlePage from './pages/SingleArticlePage/SingleArticlePage';
 import RecipesPage from './pages/RecipesPage/RecipesPage';
-import RecipePage from './pages/RecipesPage/RecipePage/RecipePage';
+import SingleRecipePage from './pages/SingleRecipePage/SingleRecipePage';
 
 import { ApplicationWrapper } from './Global.styled';
 
@@ -30,9 +30,9 @@ function App() {
             <Route path="/about" element={<AboutMePage />} />
             <Route path="/knowledge" element={<KnowledgePage />} />
             <Route path="/knowledge/articles" element={<ArticlesPage />} />
-            <Route path="/knowledge/articles/:id" element={<ArticlePage />} />
+            <Route path="/knowledge/articles/:id" element={<SingleArticlePage />} />
             <Route path="/knowledge/recipes" element={<RecipesPage />} />
-            <Route path="/knowledge/recipes/:id" element={<RecipePage />} />
+            <Route path="/knowledge/recipes/:id" element={<SingleRecipePage />} />
             <Route path="/offer" element={<OfferPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
