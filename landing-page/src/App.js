@@ -10,7 +10,7 @@ import OfferPage from './pages/OfferPage/OfferPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import Footer from './Layout/Footer/Footer';
 import ArticlesPage from './pages/ArticlesPage/ArticlesPage';
-import ArticlePage from './pages/ArticlesPage/ArticlePage/ArticlePage';
+import ArticlePage from './pages/SingleArticlePage/ArticlePage';
 import RecipesPage from './pages/RecipesPage/RecipesPage';
 import RecipePage from './pages/RecipesPage/RecipePage/RecipePage';
 

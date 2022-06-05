@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ArticleContent from './ArticleElements/ArticleContent/ArticleContent';
 import ArticleBibliography from './ArticleElements/ArticleBibliography/ArticleBibliography';
-import { getArticleCall } from '../../../api/api';
+import { getArticleCall } from '../../api/api';
 
 const ArticlePage = () => {
   const [articleObj, setArticleObj] = useState({
