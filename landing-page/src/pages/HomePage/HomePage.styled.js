@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { StyledSubtitle } from '../../utils/UniversalStyledElements';
 
 export const StyledHomePageContainer = styled.div`
   display: flex;
@@ -30,7 +31,7 @@ export const MainSectionStyled = styled.section`
 
 export const PhotoWrapper = styled.div`
   width: 60%;
-  //margin: 1rem;
+  margin-left: 1rem;
   //max-width: 800px;
   //max-height: 40vh;
   padding-bottom: 1rem;
@@ -41,15 +42,19 @@ export const PhotoWrapper = styled.div`
   }
 `;
 
-export const Title = styled.h2`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
+export const MobileTitle = styled(StyledSubtitle)`
   display: none;
 
   @media (max-width: 1080px) {
+    margin-top: 2rem;
+    display: block;
+  }
+`;
+
+export const DesktopTitle = styled(StyledSubtitle)`
+
+
+  @media (min-width: 1080px) {
     margin-top: 2rem;
     display: block;
   }
@@ -61,48 +66,6 @@ export const PhotoDescriptionContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //min-width: 360px;
-
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-
-    @media (max-width: 1600px) {
-      font-size: 1.4rem;
-    }
-
-    @media (max-width: 1300px) {
-      font-size: 1.2rem;
-    }
-
-    @media (max-width: 1080px) {
-      font-size: 1.6rem;
-      display: none;
-    }
-  }
-
-  p {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-
-    @media (max-width: 1600px) {
-      font-size: 1.3rem;
-    }
-
-    @media (max-width: 1300px) {
-      font-size: 1.1rem;
-    }
-
-    @media (max-width: 1080px) {
-      font-size: 1.5rem;
-    }
-  }
 
   @media (max-width: 1080px) {
     //padding-top: 5vh;
@@ -119,12 +82,6 @@ export const PhotoDescriptionContainer = styled.div`
   @media (max-height: 505px) {
     //padding-top: 10vh;
   }
-`;
-
-export const StyledPhoto = styled.img`
-  max-width: 100%;
-  max-height: 100%;
-  //border: 1px solid #c4ab9d;
 `;
 
 export const GallerySection = styled.section`

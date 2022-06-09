@@ -1,34 +1,35 @@
 import StyledCarousel from '../../Layout/Slider/Slider';
+import { StyledImg, StyledParagraph } from '../../utils/UniversalStyledElements';
 import {
   GallerySection,
   PhotoWrapper,
   StyledHomePageContainer,
-  StyledPhoto,
   MainSectionStyled,
   PhotoDescriptionContainer,
-  Title,
+  MobileTitle,
+  DesktopTitle,
 } from './HomePage.styled';
 
 const HomePage = () => {
   return (
     <StyledHomePageContainer>
       <MainSectionStyled>
-        <Title>Cześć!</Title>
+        <MobileTitle fontSize="2">Cześć!</MobileTitle>
         <PhotoDescriptionContainer>
-          <h2>Cześć!</h2>
-          <p>
+          <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
+          <StyledParagraph fontSize="1.5">
             Mam na imię Martyna, z wykształcenia jestem dietetykiem klinicznym.
             Jeśli jesteś na mojej stronie to najprawdopodobniej kochasz swój
             organizm i chcesz zadbać o niego w jak najlepszy sposób. Z
             przyjemnością pomogę Ci w odnalezieniu sposobu żywienia, który
             będzie smakował i odżywiał, bez zbędnych restrykcji i wykluczeń.
-          </p>
-          <p>
+          </StyledParagraph>
+          <StyledParagraph fontSize="1.5">
             Chodź, pokażę Ci jak <u>jeść dobrze!</u>
-          </p>
+          </StyledParagraph>
         </PhotoDescriptionContainer>
         <PhotoWrapper>
-          <StyledPhoto src={require('./images/img1.png')} alt="Photo" />
+          <StyledImg src={require('./images/img1.png')} alt="Photo" />
         </PhotoWrapper>
       </MainSectionStyled>
       <GallerySection>
