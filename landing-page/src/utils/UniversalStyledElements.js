@@ -10,18 +10,6 @@ export const StyledSubtitle = styled.h2`
   text-align: center;
   font-weight: bold;
   font-size: ${(props) => props.fontSize}rem;
-
-  @media (max-width: 1600px) {
-    font-size: ${(props) => props.fontSize * 1.3}rem;
-  }
-
-  @media (max-width: 1300px) {
-    font-size: ${(props) => props.fontSize * 1.1}rem;
-  }
-
-  @media (max-width: 1080px) {
-    font-size: ${(props) => props.fontSize * 1.5}rem;
-  }
 `;
 
 export const StyledImg = styled.img`
@@ -35,16 +23,4 @@ export const StyledParagraph = styled.p`
   color: #c4ab9d;
   text-align: center;
   font-size: ${(props) => props.fontSize}rem;
-
-  @media (max-width: 1600px) {
-    font-size: ${(props) => props.fontSize * 1.3}rem;
-  }
-
-  @media (max-width: 1300px) {
-    font-size: ${(props) => props.fontSize * 1.1}rem;
-  }
-
-  @media (max-width: 1080px) {
-    font-size: ${(props) => props.fontSize * 1.5}rem;
-  }
 `;

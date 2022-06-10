@@ -1,5 +1,8 @@
 import styled from 'styled-components';
-import { StyledSubtitle } from '../../utils/UniversalStyledElements';
+import {
+  StyledSubtitle,
+  StyledParagraph,
+} from '../../utils/UniversalStyledElements';
 
 export const StyledHomePageContainer = styled.div`
   display: flex;
@@ -53,10 +56,33 @@ export const MobileTitle = styled(StyledSubtitle)`
 
 export const DesktopTitle = styled(StyledSubtitle)`
 
+  @media (max-width: 1600px) {
+    font-size: ${(props) => props.fontSize * 1.1}rem;
+  }
 
-  @media (min-width: 1080px) {
+  @media (max-width: 1300px) {
+    font-size: ${(props) => props.fontSize * 0.8}rem;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: ${(props) => props.fontSize * 1.5}rem;
     margin-top: 2rem;
-    display: block;
+    display: none;
+  }
+`;
+
+export const Paragraph = styled(StyledParagraph)`
+
+  @media (max-width: 1600px) {
+    font-size: ${(props) => props.fontSize * 1}rem;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: ${(props) => props.fontSize * 0.7}rem;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: ${(props) => props.fontSize * 1.5}rem;
   }
 `;
 
