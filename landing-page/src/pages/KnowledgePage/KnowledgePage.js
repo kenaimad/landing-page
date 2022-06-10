@@ -1,13 +1,13 @@
 import {
   MainSection,
-  StyledKnowledgePageContainer,
+  PageWrapper,
 } from './KnowledgePage.styled';
 
 import { NavLink } from './KnowledgePage.styled';
 
 const KnowledgePage = () => {
   return (
-    <StyledKnowledgePageContainer>
+    <PageWrapper>
       <MainSection>
         <div>
           <NavLink to="/knowledge/recipes">Przepisy</NavLink>
@@ -16,7 +16,7 @@ const KnowledgePage = () => {
           <NavLink to="/knowledge/articles">Artykuły</NavLink>
         </div>
       </MainSection>
-    </StyledKnowledgePageContainer>
+    </PageWrapper>
   );
 };
 

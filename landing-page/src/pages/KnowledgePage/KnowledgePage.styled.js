@@ -1,16 +1,11 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
+import { ComponentWrapper } from '../../utils/UniversalStyledElements';
 
-export const StyledKnowledgePageContainer = styled.div`
-  display: flex;
+export const PageWrapper = styled(ComponentWrapper)`
   justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  width: 90%;
-  
-
-  background-color: white;
+  width: 100%;
+  max-width: 100%;
 
   @media (max-width: 1080px) {
     width: 100%;
