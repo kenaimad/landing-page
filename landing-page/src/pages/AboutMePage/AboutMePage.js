@@ -1,20 +1,23 @@
 import {
-  StyledContainer,
+  MobileTitle,
   StyledSection,
-  StyledImg,
+  Img,
   ImageContainer,
   TextContainer,
-  Title,
+  PageWrapper,
+  DesktopTitle,
+  Paragraph,
+  Subtitle
 } from './AboutMePage.styled';
 
 const AboutMePage = () => {
   return (
-    <StyledContainer>
-      <Title>Cześć!</Title>
+    <PageWrapper>
+      <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
       <StyledSection>
         <TextContainer>
-          <h1>Cześć!</h1>
-          <p>
+          <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
+          <Paragraph>
             Mam na imię Martyna i jestem licencjonowanym dietetykiem klinicznym,
             aktualnie na ostatniej prostej do uzyskania tytułu magistra na
             Uniwersytecie Medycznym we Wrocławiu. Wyznaję holistyczne podejście
@@ -24,10 +27,10 @@ const AboutMePage = () => {
             chorobach jelit, alergiach i nietolerancjach pokarmowych. Zajmuję
             się również dietoterapią w przypadku otyłości, chorób tarczycy i
             insulinooporności.
-          </p>
+          </Paragraph>
         </TextContainer>
         <ImageContainer>
-          <StyledImg
+          <Img
             src={require('./pictures/1.png')}
             alt="Zdjęcie z grejpfrutem."
           />
@@ -35,13 +38,13 @@ const AboutMePage = () => {
       </StyledSection>
       <StyledSection>
         <ImageContainer>
-          <StyledImg
+          <Img
             src={require('./pictures/2.png')}
             alt="Zdjęcie z papryką."
           />
         </ImageContainer>
         <TextContainer>
-          <p>
+          <Paragraph>
             Wolny czas spędzam na wymyślaniu wege alternatyw dla klasycznych
             posiłków (głównie słodkości!), a te uwielbiam fotografować i dzielić
             się nimi na swoim [instagramie]. W tygodniu chętnie wybieram się na
@@ -53,13 +56,13 @@ const AboutMePage = () => {
             spożywane w postaci naparów naturalnie wspierają funkcjonowanie w
             zależności od aktualnych potrzeb; poprawa trawienia, wyciszenie czy
             wsparcie odporności.
-          </p>
+          </Paragraph>
         </TextContainer>
       </StyledSection>
       <StyledSection>
         <TextContainer>
-          <h1>Dlaczego powinnam zostać Twoim dietetykiem?</h1>
-          <p>
+          <Subtitle fontSize="1.8">Dlaczego powinnam zostać Twoim dietetykiem?</Subtitle>
+          <Paragraph>
             Jestem osobą z odpowiednimi kwalifikacjami oraz doświadczeniem
             klinicznym, dzięki czemu możesz być pewny, że jesteś pod opieką
             specjalisty. Chciałabym podczas naszej współpracy nauczyć Cię
@@ -72,20 +75,20 @@ const AboutMePage = () => {
             czyni truciznę ;) W zdrowej diecie jest miejsce na pizzę i sałatkę,
             ważne by sposób żywienia grał z Tobą! To dieta ma pasować do Ciebie,
             nie na odwrót.
-          </p>
-          <p>
+          </Paragraph>
+          <Paragraph>
             W świecie kipiącym od informacji, diet cud chciałabym Ci pokazać jak
             JEŚĆ DOBRZE i nie zwariować.
-          </p>
+          </Paragraph>
         </TextContainer>
         <ImageContainer>
-          <StyledImg
+          <Img
             src={require('./pictures/3.png')}
             alt="Zdjęcie z kropkami."
           />
         </ImageContainer>
       </StyledSection>
-    </StyledContainer>
+    </PageWrapper>
   );
 };
 

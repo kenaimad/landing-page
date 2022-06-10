@@ -2,7 +2,12 @@ import styled from 'styled-components';
 import {
   StyledSubtitle,
   StyledParagraph,
+  ComponentWrapper,
 } from '../../utils/UniversalStyledElements';
+
+export const PageWrapper = styled(ComponentWrapper)`
+  justify-content: space-between;
+`
 
 export const MainSectionStyled = styled.section`
   display: flex;

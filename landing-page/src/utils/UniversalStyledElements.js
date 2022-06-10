@@ -2,12 +2,11 @@ import styled from 'styled-components';
 
 export const ComponentWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   align-content: center;
-  flex-direction: column;
   max-width: 90%;
-  //min-height: 80vh;
+  min-height: 80vh;
   background-color: white;
 
   @media (max-width: 1080px) {

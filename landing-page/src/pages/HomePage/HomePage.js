@@ -3,17 +3,17 @@ import { StyledImg, ComponentWrapper } from '../../utils/UniversalStyledElements
 import {
   GallerySection,
   PhotoWrapper,
-  StyledHomePageContainer,
   MainSectionStyled,
   PhotoDescriptionContainer,
   MobileTitle,
   DesktopTitle,
   Paragraph,
+  PageWrapper,
 } from './HomePage.styled';
 
 const HomePage = () => {
   return (
-    <ComponentWrapper>
+    <PageWrapper>
       <MainSectionStyled>
         <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
         <PhotoDescriptionContainer>
@@ -36,7 +36,7 @@ const HomePage = () => {
       <GallerySection>
         <StyledCarousel />
       </GallerySection>
-    </ComponentWrapper>
+    </PageWrapper>
   );
 };
 
