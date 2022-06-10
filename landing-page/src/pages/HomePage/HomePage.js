@@ -1,5 +1,5 @@
 import StyledCarousel from '../../Layout/Slider/Slider';
-import { StyledImg, ComponentWrapper } from '../../utils/UniversalStyledElements';
+import { StyledImg } from '../../utils/UniversalStyledElements';
 import {
   GallerySection,
   PhotoWrapper,
