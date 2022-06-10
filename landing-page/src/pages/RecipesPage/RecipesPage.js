@@ -1,11 +1,11 @@
 import RecipeList from "./RecipesList/RecipesList";
-import { StyledRecipesPage } from "./RecipesPage.styled";
+import { PageWrapper } from "./RecipesPage.styled";
 
 const RecipesPage = () => {
     return (
-        <StyledRecipesPage>
+        <PageWrapper>
             <RecipeList />
-        </StyledRecipesPage>
+        </PageWrapper>
     );
 }
 

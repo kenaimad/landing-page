@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import { ComponentWrapper } from '../../../utils/UniversalStyledElements';
 
-export const StyledRecipeList = styled.div`
+export const PageWrapper = styled(ComponentWrapper)`
   display: flex;
   justify-content: center;
+  align-content: flex-start;
+  flex-direction: row;
   width: 100%;
-  background-color: white;
   flex-wrap: wrap;
-  margin-top: 1rem;
 
   @media (max-width: 1080px) {
     width: 100%;
