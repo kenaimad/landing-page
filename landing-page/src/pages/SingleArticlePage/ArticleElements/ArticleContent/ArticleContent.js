@@ -1,4 +1,4 @@
-import { Paragraph, StyledContent, StyledParagraph, TextContainer, Title } from './ArticleContent.styled';
+import { Paragraph, StyledContent, TextContainer, Title } from './ArticleContent.styled';
 
 const ArticleContent = (props) => {
   const writeParagraphs = () => {

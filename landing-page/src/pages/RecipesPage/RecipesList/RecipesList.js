@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { getRecipesCall } from '../../../api/api';
 
 import Recipe from './Recipe/Recipe';
-import { PageWrapper, StyledRecipeList } from './RecipesList.styled';
+import { PageWrapper } from './RecipesList.styled';
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
