@@ -1,15 +1,15 @@
-import { IngrediendsContainer } from './IngrediendsList.styled';
+import { IngrediendsContainer, Subtitle, List } from './IngrediendsList.styled';
 
 const IngrediendsList = (props) => {
   const writeIngrediends = () => {
     if (props.list !== '') {
       return (
         <>
-          <ul>
+          <List>
             {props.list.slice(1).map((ingrediend) => (
               <li key={ingrediend}>{ingrediend}</li>
             ))}
-          </ul>
+          </List>
         </>
       );
     }
@@ -18,7 +18,7 @@ const IngrediendsList = (props) => {
 
   return (
     <IngrediendsContainer>
-      <h2>{props.list[0]}</h2>
+      <Subtitle>{props.list[0]}</Subtitle>
       {writeIngrediends()}
     </IngrediendsContainer>
   );

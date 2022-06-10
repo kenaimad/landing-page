@@ -1,89 +1,90 @@
 import styled from 'styled-components';
+import {
+  ComponentWrapper,
+  StyledParagraph,
+  StyledSubtitle,
+  StyledTitle,
+} from '../../utils/UniversalStyledElements';
 
-export const StyledRecipePage = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
+export const PageWrapper = styled(ComponentWrapper)`
   width: 60%;
-  background-color: white;
   padding: 1rem;
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  font-weight: bold;
-  min-height: 80vh;
-
-  h1 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    text-align: center;
-    font-weight: bold;
-
-    @media (max-width: 2000px) {
-      font-size: 1.7rem;
-    }
-
-    @media (max-width: 1600px) {
-      font-size: 1.6rem;
-    }
-
-    @media (max-width: 1200px) {
-      font-size: 1.5rem;
-    }
-
-    @media (max-width: 1200px) {
-      font-size: 1.3rem;
-    }
-
-    @media (max-width: 800px) {
-      font-size: 1.6rem;
-    }
-  }
-
-  h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    font-weight: bold;
-    font-size: 2rem;
-
-    @media (max-width: 2000px) {
-      font-size: 1.6rem;
-    }
-
-    @media (max-width: 1600px) {
-      font-size: 1.5rem;
-    }
-
-    @media (max-width: 1200px) {
-      font-size: 1.4rem;
-    }
-
-    @media (max-width: 1200px) {
-      font-size: 1.2rem;
-    }
-
-    @media (max-width: 800px) {
-      font-size: 1.5rem;
-    }
-  }
-
-  h4 {
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
-    font-weight: bold;
-  }
 
   ul {
     margin-left: 2rem;
   }
+`;
 
+export const Title = styled(StyledTitle)`
+  @media (max-width: 2000px) {
+    font-size: 1.7rem;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.6rem;
+  }
+`;
+
+export const Subtitle = styled(StyledSubtitle)`
+  @media (max-width: 2000px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.5rem;
+  }
+`;
+
+export const Paragraph = styled(StyledParagraph)`
+  font-size: 1.5rem;
+  text-align: left;
+
+  @media (max-width: 2000px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.3rem;
+  }
+`;
+
+export const StyledRecipePage = styled.div`
   @media (max-width: 800px) {
     width: 100%;
     max-width: 100%;

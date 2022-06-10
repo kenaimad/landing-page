@@ -1,7 +1,10 @@
 import {
   PreparationContainer,
   StyledImgContainer,
-  StyledRecipePage,
+  PageWrapper,
+  Title,
+  Subtitle,
+  Paragraph,
 } from './SingleRecipePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -30,19 +33,19 @@ const SingleRecipePage = () => {
   }, [id]);
 
   return (
-    <StyledRecipePage>
-      <h1>{recipeObj.name}</h1>
+    <PageWrapper>
+      <Title fontSize="2.5">{recipeObj.name}</Title>
       <StyledImgContainer>
         <img alt="Meal" src={recipeObj.photo} />
       </StyledImgContainer>
-      <h1>Składniki:</h1>
+      <Title fontSize="2">Składniki:</Title>
       <IngrediendsSection ingrediends={recipeObj.ingrediends} />
 
-      <h3>Sposób przygotowania:</h3>
+      <Subtitle fontSize="2">Sposób przygotowania:</Subtitle>
       <PreparationContainer>
-        <p>{recipeObj.preparation}</p>
+        <Paragraph>{recipeObj.preparation}</Paragraph>
       </PreparationContainer>
-    </StyledRecipePage>
+    </PageWrapper>
   );
 };
 

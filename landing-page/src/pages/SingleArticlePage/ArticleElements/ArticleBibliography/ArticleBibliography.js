@@ -1,4 +1,4 @@
-import { BibliographSection } from './ArticleBibliography.styled';
+import { BibliographSection, List } from './ArticleBibliography.styled';
 
 const ArticleBibliography = (props) => {
   const writeBibliography = () => {
@@ -15,7 +15,7 @@ const ArticleBibliography = (props) => {
   };
   return (
     <BibliographSection>
-      <ol>{writeBibliography()}</ol>
+      <List>{writeBibliography()}</List>
     </BibliographSection>
   );
 };

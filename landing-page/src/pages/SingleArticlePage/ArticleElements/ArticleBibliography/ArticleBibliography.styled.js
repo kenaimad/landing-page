@@ -1,11 +1,8 @@
 import styled from 'styled-components';
+import { OrderedList } from '../../../../utils/UniversalStyledElements';
 
-export const BibliographSection = styled.div`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  font-weight: bold;
+export const BibliographSection = styled.div``;
 
-  ol {
-    list-style-type: upper-roman;
-  }
+export const List = styled(OrderedList)`
+  list-style-type: upper-roman;
 `;

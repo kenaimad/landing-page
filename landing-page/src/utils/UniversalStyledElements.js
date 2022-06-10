@@ -46,3 +46,15 @@ export const StyledParagraph = styled.p`
   font-size: 1.1rem;
   font-size: ${(props) => props.fontSize}rem;
 `;
+
+export const UnorderedList = styled.ul`
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+  font-weight: bold;
+`;
+
+export const OrderedList = styled.ul`
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+  font-weight: bold;
+`;
