@@ -1,14 +1,13 @@
 import ContactForm from './ContactForm/ContactForm';
-import { UniversalComponentContainer } from '../../Global.styled';
-import { Wrapper } from './ContactPage.styled';
+import { PageWrapper, Wrapper } from './ContactPage.styled';
 
 const ContactPage = () => {
   return (
-    <UniversalComponentContainer>
+    <PageWrapper>
       <Wrapper>
         <ContactForm />
       </Wrapper>
-    </UniversalComponentContainer>
+    </PageWrapper>
   );
 };
 
