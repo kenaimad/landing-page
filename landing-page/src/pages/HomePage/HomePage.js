@@ -1,5 +1,5 @@
 import StyledCarousel from '../../Layout/Slider/Slider';
-import { StyledImg, StyledParagraph } from '../../utils/UniversalStyledElements';
+import { StyledImg, ComponentWrapper } from '../../utils/UniversalStyledElements';
 import {
   GallerySection,
   PhotoWrapper,
@@ -13,7 +13,7 @@ import {
 
 const HomePage = () => {
   return (
-    <StyledHomePageContainer>
+    <ComponentWrapper>
       <MainSectionStyled>
         <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
         <PhotoDescriptionContainer>
@@ -36,7 +36,7 @@ const HomePage = () => {
       <GallerySection>
         <StyledCarousel />
       </GallerySection>
-    </StyledHomePageContainer>
+    </ComponentWrapper>
   );
 };
 

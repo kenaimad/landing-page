@@ -4,21 +4,6 @@ import {
   StyledParagraph,
 } from '../../utils/UniversalStyledElements';
 
-export const StyledHomePageContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  max-width: 90%;
-  background-color: white;
-
-  @media (max-width: 1080px) {
-    width: 100%;
-    max-width: 100%;
-  }
-`;
-
 export const MainSectionStyled = styled.section`
   display: flex;
   justify-content: space-around;
@@ -32,8 +17,21 @@ export const MainSectionStyled = styled.section`
   }
 `;
 
+export const GallerySection = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //height: 200px;
+  max-width: 90%;
+
+  @media (max-width: 1080px) {
+    width: 100%;
+    max-width: 100%;
+  }
+`;
+
 export const PhotoWrapper = styled.div`
-  width: 60%;
+  width: 50%;
   margin-left: 1rem;
   //max-width: 800px;
   //max-height: 40vh;
@@ -55,7 +53,6 @@ export const MobileTitle = styled(StyledSubtitle)`
 `;
 
 export const DesktopTitle = styled(StyledSubtitle)`
-
   @media (max-width: 1600px) {
     font-size: ${(props) => props.fontSize * 1.1}rem;
   }
@@ -72,7 +69,6 @@ export const DesktopTitle = styled(StyledSubtitle)`
 `;
 
 export const Paragraph = styled(StyledParagraph)`
-
   @media (max-width: 1600px) {
     font-size: ${(props) => props.fontSize * 1}rem;
   }
@@ -99,26 +95,5 @@ export const PhotoDescriptionContainer = styled.div`
     padding-right: 1rem;
     width: 100%;
     order: 2;
-  }
-
-  @media (max-height: 1080px) {
-    //padding-top: 5vh;
-  }
-
-  @media (max-height: 505px) {
-    //padding-top: 10vh;
-  }
-`;
-
-export const GallerySection = styled.section`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  //height: 200px;
-  max-width: 90%;
-
-  @media (max-width: 1080px) {
-    width: 100%;
-    max-width: 100%;
   }
 `;
