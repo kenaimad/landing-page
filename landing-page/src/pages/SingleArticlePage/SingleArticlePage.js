@@ -1,9 +1,10 @@
-import { StyledImgContainer, StyledArticlePage } from './SingleArticlePage.styled';
+import { StyledImgContainer, PageWrapper, Subtitle } from './SingleArticlePage.styled';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ArticleContent from './ArticleElements/ArticleContent/ArticleContent';
 import ArticleBibliography from './ArticleElements/ArticleBibliography/ArticleBibliography';
 import { getArticleCall } from '../../api/api';
+import { StyledImg } from '../../utils/UniversalStyledElements';
 
 const SingleArticlePage = () => {
   const [articleObj, setArticleObj] = useState({
@@ -25,14 +26,14 @@ const SingleArticlePage = () => {
   }, [id]);
 
   return (
-    <StyledArticlePage>
+    <PageWrapper>
       <StyledImgContainer>
-        <img alt="Article" src={articleObj.photo} />
+        <StyledImg alt="Article" src={articleObj.photo} />
       </StyledImgContainer>
       <ArticleContent content={articleObj.content} />
-      <h3>Piśmiennictwo</h3>
+      <Subtitle>Piśmiennictwo</Subtitle>
       <ArticleBibliography bibliography={articleObj.bibliography} />
-    </StyledArticlePage>
+    </PageWrapper>
   );
 };
 

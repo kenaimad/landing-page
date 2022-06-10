@@ -1,7 +1,7 @@
-import { StyledContent, StyledParagraph } from './ArticleContent.styled';
+import { Paragraph, StyledContent, StyledParagraph, TextContainer, Title } from './ArticleContent.styled';
 
 const ArticleContent = (props) => {
-  const writeIngrediends = () => {
+  const writeParagraphs = () => {
     if (props.content !== '') {
       let paragraphsArray = [];
 
@@ -16,10 +16,10 @@ const ArticleContent = (props) => {
       return (
         <>
           {paragraphsArray.map((paragraph) => (
-            <StyledParagraph key={paragraph.subtitle}>
-              <h1><u>{paragraph.subtitle}</u></h1>
-              <div>{paragraph.paragraph}</div>
-            </StyledParagraph>
+            <TextContainer key={paragraph.subtitle}>
+              <Title><u>{paragraph.subtitle}</u></Title>
+              <Paragraph>{paragraph.paragraph}</Paragraph>
+            </TextContainer>
           ))}
         </>
       );
@@ -27,7 +27,7 @@ const ArticleContent = (props) => {
     return null;
   };
 
-  return <StyledContent>{writeIngrediends()}</StyledContent>;
+  return <StyledContent>{writeParagraphs()}</StyledContent>;
 };
 
 export default ArticleContent;

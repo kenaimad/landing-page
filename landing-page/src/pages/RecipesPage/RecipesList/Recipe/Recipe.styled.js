@@ -38,7 +38,5 @@ export const StyledImgContainer = styled.div`
   img {
     max-width: 100%;
     max-height: 100%;
-    //max-height: 100%;
-    //border: 1px solid #c4ab9d;
   }
 `;
