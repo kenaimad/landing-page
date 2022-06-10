@@ -1,13 +1,14 @@
 import styled from 'styled-components';
+import {
+  ComponentWrapper,
+  StyledSubtitle,
+  StyledTitle,
+} from '../../utils/UniversalStyledElements';
 
-export const StyledContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+export const PageWrapper = styled(ComponentWrapper)`
   justify-content: center;
   width: 90%;
   min-width: 330px;
-  background-color: white;
 
   @media (max-width: 1200px) {
     width: 100%;
@@ -15,21 +16,15 @@ export const StyledContainer = styled.div`
   }
 `;
 
-export const StyledTitle = styled.h1`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  text-align: center;
-  font-weight: bold;
+export const Title = styled(StyledTitle)`
   margin-top: 1rem;
 `;
 
-export const StyledHeader = styled.h2`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
-  text-align: center;
-  font-weight: bold;
+export const SubTitle = styled(StyledSubtitle)`
   text-decoration: underline 1px solid #c4ab9d;
+  font-size: 2rem;
 `;
+
 
 export const ImagesSection = styled.section`
   margin: 2rem;

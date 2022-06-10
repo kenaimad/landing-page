@@ -1,20 +1,20 @@
 import {
-  StyledContainer,
+  PageWrapper,
   ImagesSection,
   StyledImage,
-  StyledTitle,
+  Title,
   InformativeSection,
   ImageSection,
   FrontTileImg,
   BackTileImg,
-  StyledHeader,
+  SubTitle,
   TileContainer,
 } from './OfferPage.styled';
 
 const OfferPage = () => {
   return (
-    <StyledContainer>
-      <StyledTitle>W czym mogę Ci pomóc?</StyledTitle>
+    <PageWrapper>
+      <Title fontSize= "2">W czym mogę Ci pomóc?</Title>
       <ImagesSection>
         <StyledImage
           src={require('./images/diseases/1.png')}
@@ -38,7 +38,7 @@ const OfferPage = () => {
         />
       </ImagesSection>
       <InformativeSection>
-        <StyledHeader>Z czym to się je?</StyledHeader>
+        <SubTitle>Z czym to się je?</SubTitle>
         <div>
           <p>
             W zależności od preferencji, wybierz plan współpracy: konsultacja w
@@ -64,7 +64,7 @@ const OfferPage = () => {
         </div>
       </InformativeSection>
       <InformativeSection>
-        <StyledHeader>Dlaczego warto wybrać pakiety współpracy?</StyledHeader>
+        <SubTitle>Dlaczego warto wybrać pakiety współpracy?</SubTitle>
         <div>
           <p>
             Wybierając współpracę minimum na miesiąc, możesz liczyć na maksimum
@@ -170,7 +170,7 @@ const OfferPage = () => {
           />
         </TileContainer>
       </ImageSection>
-    </StyledContainer>
+    </PageWrapper>
   );
 };
 
