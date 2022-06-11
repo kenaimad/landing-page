@@ -7,7 +7,7 @@ import {
   PageWrapper,
   DesktopTitle,
   Paragraph,
-  Subtitle
+  Subtitle,
 } from './AboutMePage.styled';
 
 const AboutMePage = () => {
@@ -18,74 +18,69 @@ const AboutMePage = () => {
         <TextContainer>
           <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
           <Paragraph>
-            Mam na imię Martyna i jestem licencjonowanym dietetykiem klinicznym,
-            aktualnie na ostatniej prostej do uzyskania tytułu magistra na
-            Uniwersytecie Medycznym we Wrocławiu. Wyznaję holistyczne podejście
-            do zdrowia, aby czuć się dobrze ważne jest zarówno dobre
-            samopoczucie psychiczne jak i fizyczne. Szczególnie bliskie są mi
-            tematy dotyczące diet roślinnych i postępowania dietetycznego w
-            chorobach jelit, alergiach i nietolerancjach pokarmowych. Zajmuję
-            się również dietoterapią w przypadku otyłości, chorób tarczycy i
-            insulinooporności.
+            Mam na imię Martyna&nbsp;i&nbsp;jestem licencjonowanym dietetykiem
+            klinicznym, aktualnie na&nbsp;ostatniej prostej do uzyskania tytułu
+            magistra na Uniwersytecie Medycznym we Wrocławiu. Wyznaję
+            holistyczne podejście do zdrowia, aby czuć się dobrze ważne jest
+            zarówno dobre samopoczucie psychiczne jak i&nbsp;fizyczne.
+            Szczególnie bliskie są mi tematy dotyczące diet roślinnych i
+            postępowania dietetycznego w&nbsp;chorobach jelit, alergiach i
+            nietolerancjach pokarmowych. Zajmuję się również dietoterapią
+            w&nbsp;przypadku otyłości, chorób tarczycy i&nbsp;insulinooporności.
           </Paragraph>
         </TextContainer>
         <ImageContainer>
-          <Img
-            src={require('./pictures/1.png')}
-            alt="Zdjęcie z grejpfrutem."
-          />
+          <Img src={require('./pictures/1.png')} alt="Zdjęcie z grejpfrutem." />
         </ImageContainer>
       </StyledSection>
       <StyledSection>
         <ImageContainer>
-          <Img
-            src={require('./pictures/2.png')}
-            alt="Zdjęcie z papryką."
-          />
+          <Img src={require('./pictures/2.png')} alt="Zdjęcie z papryką." />
         </ImageContainer>
         <TextContainer>
           <Paragraph>
             Wolny czas spędzam na wymyślaniu wege alternatyw dla klasycznych
-            posiłków (głównie słodkości!), a te uwielbiam fotografować i dzielić
-            się nimi na swoim [instagramie]. W tygodniu chętnie wybieram się na
-            jogging z moim pieskiem, a innym razem praktykuję yogę albo ćwiczę
-            na macie w domu. Jestem fleksitarianką; w mojej diecie bazuję
-            głównie na pełnym ziarnie, warzywach, owocach i roślinnych źródłach
-            białka, jednak czasami wpada również klasyczny burger z wołowiną na
-            mieście. Z radością tworzę autorskie mieszanki ziołowe, które
-            spożywane w postaci naparów naturalnie wspierają funkcjonowanie w
-            zależności od aktualnych potrzeb; poprawa trawienia, wyciszenie czy
-            wsparcie odporności.
+            posiłków (głównie słodkości!), a&nbsp;te uwielbiam fotografować
+            i&nbsp;dzielić się nimi na swoim [instagramie]. W tygodniu chętnie
+            wybieram się na jogging z&nbsp;moim pieskiem, a&nbsp;innym razem
+            praktykuję yogę albo ćwiczę na macie w&nbsp;domu. Jestem
+            fleksitarianką; w&nbsp;mojej diecie bazuję głównie na&nbsp;pełnym
+            ziarnie, warzywach, owocach i&nbsp;roślinnych źródłach białka,
+            jednak czasami wpada również klasyczny burger z&nbsp;wołowiną na
+            mieście. Z&nbsp;radością tworzę autorskie mieszanki ziołowe, które
+            spożywane w&nbsp;postaci naparów naturalnie wspierają funkcjonowanie
+            w&nbsp;zależności od aktualnych potrzeb; poprawa trawienia,
+            wyciszenie czy wsparcie odporności.
           </Paragraph>
         </TextContainer>
       </StyledSection>
       <StyledSection>
         <TextContainer>
-          <Subtitle fontSize="1.8">Dlaczego powinnam zostać Twoim dietetykiem?</Subtitle>
+          <Subtitle fontSize="1.8">
+            Dlaczego powinnam zostać Twoim dietetykiem?
+          </Subtitle>
           <Paragraph>
-            Jestem osobą z odpowiednimi kwalifikacjami oraz doświadczeniem
-            klinicznym, dzięki czemu możesz być pewny, że jesteś pod opieką
+            Jestem osobą z&nbsp;odpowiednimi kwalifikacjami oraz doświadczeniem
+            klinicznym, dzięki czemu możesz być pewny, że&nbsp;jesteś pod opieką
             specjalisty. Chciałabym podczas naszej współpracy nauczyć Cię
-            dokonywać właściwych wyborów żywieniowych i nie tylko. Ważne jest
-            nie tylko to co ląduje na Twoim talerzu, ale również okoliczności, w
-            których spożywasz posiłki. Wszystkie aspekty życia powinny współgrać
-            tak, aby wspierać Twój organizm w codziennych działaniach i dać Ci
-            możliwość czerpania z życia pełnymi garściami bez natrętnego
-            myślenia o przyswojonych kaloriach. Wszystko jest dla ludzi! Dawka
-            czyni truciznę ;) W zdrowej diecie jest miejsce na pizzę i sałatkę,
-            ważne by sposób żywienia grał z Tobą! To dieta ma pasować do Ciebie,
-            nie na odwrót.
+            dokonywać właściwych wyborów żywieniowych i&nbsp;nie tylko. Ważne
+            jest nie&nbsp;tylko to co ląduje na Twoim talerzu, ale&nbsp;również
+            okoliczności, w&nbsp;których spożywasz posiłki. Wszystkie aspekty
+            życia powinny współgrać tak, aby&nbsp;wspierać Twój organizm
+            w&nbsp;codziennych działaniach i&nbsp;dać Ci możliwość czerpania
+            z&nbsp;życia pełnymi garściami bez natrętnego myślenia o
+            przyswojonych kaloriach. Wszystko jest dla ludzi! Dawka czyni
+            truciznę ;) W zdrowej diecie jest miejsce na&nbsp;pizzę
+            i&nbsp;sałatkę, ważne by sposób żywienia grał z&nbsp;Tobą! To dieta
+            ma pasować do Ciebie, nie na odwrót.
           </Paragraph>
           <Paragraph>
             W świecie kipiącym od informacji, diet cud chciałabym Ci pokazać jak
-            JEŚĆ DOBRZE i nie zwariować.
+            JEŚĆ DOBRZE i&nbsp;nie zwariować.
           </Paragraph>
         </TextContainer>
         <ImageContainer>
-          <Img
-            src={require('./pictures/3.png')}
-            alt="Zdjęcie z kropkami."
-          />
+          <Img src={require('./pictures/3.png')} alt="Zdjęcie z kropkami." />
         </ImageContainer>
       </StyledSection>
     </PageWrapper>

@@ -16,14 +16,16 @@ const HomePage = () => {
     <PageWrapper>
       <MainSectionStyled>
         <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
+        <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
         <PhotoDescriptionContainer>
           <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
           <Paragraph fontSize="1.5">
-            Mam na imię Martyna, z wykształcenia jestem dietetykiem klinicznym.
-            Jeśli jesteś na mojej stronie to najprawdopodobniej kochasz swój
-            organizm i chcesz zadbać o niego w jak najlepszy sposób. Z
-            przyjemnością pomogę Ci w odnalezieniu sposobu żywienia, który
-            będzie smakował i odżywiał, bez zbędnych restrykcji i wykluczeń.
+            Mam na imię Martyna, z&nbsp;wykształcenia jestem dietetykiem
+            klinicznym. Jeśli jesteś na mojej stronie to najprawdopodobniej
+            kochasz swój organizm i&nbsp;chcesz zadbać o&nbsp;niego w&nbsp;jak
+            najlepszy sposób. Z&nbsp;przyjemnością pomogę Ci w&nbsp;odnalezieniu
+            sposobu żywienia, który będzie smakował i&nbsp;odżywiał, bez
+            zbędnych restrykcji i&nbsp;wykluczeń.
           </Paragraph>
           <Paragraph fontSize="1.5">
             Chodź, pokażę Ci jak <u>jeść dobrze!</u>
