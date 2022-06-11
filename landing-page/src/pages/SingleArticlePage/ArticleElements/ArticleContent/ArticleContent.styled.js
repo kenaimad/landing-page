@@ -33,7 +33,11 @@ export const Title = styled(StyledSubtitle)`
   }
 
   @media (max-width: 800px) {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.2rem;
   }
 `;
 
@@ -57,7 +61,11 @@ export const Paragraph = styled(StyledParagraph)`
   }
 
   @media (max-width: 800px) {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: .9rem;
   }
 `;
 
