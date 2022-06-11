@@ -13,6 +13,12 @@ export const PageWrapper = styled(ComponentWrapper)`
   ul {
     margin-left: 2rem;
   }
+
+  
+  @media (max-width: 1080px) {
+    width: 100%;
+    //flex-direction: column;
+  }
 `;
 
 export const Title = styled(StyledTitle)`

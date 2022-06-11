@@ -6,7 +6,7 @@ import {
 } from '../../utils/UniversalStyledElements';
 
 export const PageWrapper = styled(ComponentWrapper)`
-  justify-content: space-between;
+  justify-content: flex-start;
 `
 
 export const MainSectionStyled = styled.section`
@@ -59,7 +59,7 @@ export const MobileTitle = styled(StyledSubtitle)`
 
 export const DesktopTitle = styled(StyledSubtitle)`
   @media (max-width: 1600px) {
-    font-size: ${(props) => props.fontSize * 1.1}rem;
+    font-size: ${(props) => props.fontSize * 0.9}rem;
   }
 
   @media (max-width: 1300px) {
@@ -75,7 +75,7 @@ export const DesktopTitle = styled(StyledSubtitle)`
 
 export const Paragraph = styled(StyledParagraph)`
   @media (max-width: 1600px) {
-    font-size: ${(props) => props.fontSize * 1}rem;
+    font-size: ${(props) => props.fontSize * 0.8}rem;
   }
 
   @media (max-width: 1300px) {
@@ -84,6 +84,14 @@ export const Paragraph = styled(StyledParagraph)`
 
   @media (max-width: 1080px) {
     font-size: ${(props) => props.fontSize * 1.5}rem;
+  }
+
+  @media (max-width: 700px) {
+    font-size: ${(props) => props.fontSize * 1}rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: ${(props) => props.fontSize * 0.8}rem;
   }
 `;
 
