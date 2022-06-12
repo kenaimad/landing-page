@@ -5,6 +5,7 @@ import {
   StyledParagraph,
   StyledImg,
   StyledSubtitle,
+  StyledA,
 } from '../../utils/UniversalStyledElements';
 
 export const PageWrapper = styled(ComponentWrapper)`
@@ -102,3 +103,10 @@ export const ImageContainer = styled.div`
 export const Img = styled(StyledImg)`
   width: 70%;
 `;
+
+
+export const Anchor = styled(StyledA)`
+    &:hover {
+      color: #db814f;
+    }
+`

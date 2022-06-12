@@ -58,3 +58,9 @@ export const OrderedList = styled.ul`
   color: #c4ab9d;
   font-weight: bold;
 `;
+
+export const StyledA = styled.a`
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+  font-weight: bold;
+`;

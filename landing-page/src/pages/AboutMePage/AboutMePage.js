@@ -8,6 +8,7 @@ import {
   DesktopTitle,
   Paragraph,
   Subtitle,
+  Anchor,
 } from './AboutMePage.styled';
 
 const AboutMePage = () => {
@@ -41,7 +42,7 @@ const AboutMePage = () => {
           <Paragraph>
             Wolny czas spędzam na wymyślaniu wege alternatyw dla klasycznych
             posiłków (głównie słodkości!), a&nbsp;te uwielbiam fotografować
-            i&nbsp;dzielić się nimi na swoim [instagramie]. W tygodniu chętnie
+            i&nbsp;dzielić się nimi na swoim <Anchor>[instagramie]</Anchor>. W tygodniu chętnie
             wybieram się na jogging z&nbsp;moim pieskiem, a&nbsp;innym razem
             praktykuję yogę albo ćwiczę na macie w&nbsp;domu. Jestem
             fleksitarianką; w&nbsp;mojej diecie bazuję głównie na&nbsp;pełnym
