@@ -9,6 +9,12 @@ const ArticleContent = (props) => {
         let subtitle = element.split('*')[0];
         let paragraph = element.split('*')[1];
 
+        paragraph = paragraph.replaceAll(' w ',' w\u00a0');
+        paragraph = paragraph.replaceAll(' W ',' W\u00a0');
+        paragraph = paragraph.replaceAll(' i ',' i\u00a0');
+
+        //console.log(paragraph);
+
         paragraphsArray.push({ subtitle, paragraph });
       });
 

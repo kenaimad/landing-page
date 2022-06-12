@@ -25,6 +25,9 @@ const SingleRecipePage = () => {
   useEffect(() => {
     const getRecipe = () => {
       getRecipeCall(id).then((data) => {
+        data.preparation = data.preparation.replaceAll(' w ',' w\u00a0');
+        data.preparation = data.preparation.replaceAll(' W ',' W\u00a0');
+        data.preparation = data.preparation.replaceAll(' i ',' I\u00a0');
         setRecipeObj(data);
       });
     };
