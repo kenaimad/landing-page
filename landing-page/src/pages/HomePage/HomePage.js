@@ -16,7 +16,6 @@ const HomePage = () => {
     <PageWrapper>
       <MainSectionStyled>
         <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
-        <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
         <PhotoDescriptionContainer>
           <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
           <Paragraph fontSize="1.5">
