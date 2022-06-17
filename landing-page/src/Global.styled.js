@@ -7,7 +7,8 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #c4ab9d;
   }
 `;
 

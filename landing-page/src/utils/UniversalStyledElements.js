@@ -16,8 +16,6 @@ export const ComponentWrapper = styled.div`
 `;
 
 export const StyledTitle = styled.h1`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
@@ -25,8 +23,6 @@ export const StyledTitle = styled.h1`
 `;
 
 export const StyledSubtitle = styled.h2`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
   text-align: center;
   font-weight: bold;
   font-size: 1.3rem;
@@ -40,27 +36,19 @@ export const StyledImg = styled.img`
 
 export const StyledParagraph = styled.p`
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
   text-align: center;
   font-size: 1.1rem;
   font-size: ${(props) => props.fontSize}rem;
 `;
 
 export const UnorderedList = styled.ul`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
   font-weight: bold;
 `;
 
 export const OrderedList = styled.ul`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
   font-weight: bold;
 `;
 
 export const StyledA = styled.a`
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
   font-weight: bold;
 `;
