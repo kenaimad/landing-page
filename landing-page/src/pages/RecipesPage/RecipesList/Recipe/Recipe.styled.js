@@ -14,6 +14,10 @@ export const NavLink = styled(Link)`
   @media (max-width: 900px) {
     width: 100%;
     max-width: 100%;
+
+    &:hover {
+      transform: none;
+    }
   }
 `;
 
@@ -23,8 +27,6 @@ export const StyledRecipe = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 `;
 
 export const StyledImgContainer = styled.div`
