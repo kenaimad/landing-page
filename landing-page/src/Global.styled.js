@@ -2,13 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 
 export default createGlobalStyle`
+* {
+  font-family: 'Poppins', sans-serif;
+  color: #c4ab9d;
+}
+
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
   }
 `;
 

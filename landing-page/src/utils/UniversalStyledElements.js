@@ -20,6 +20,7 @@ export const StyledTitle = styled.h1`
   font-weight: bold;
   font-size: 1.5rem;
   font-size: ${(props) => props.fontSize}rem;
+  color: #c4ab9d;
 `;
 
 export const StyledSubtitle = styled.h2`
@@ -27,6 +28,7 @@ export const StyledSubtitle = styled.h2`
   font-weight: bold;
   font-size: 1.3rem;
   font-size: ${(props) => props.fontSize}rem;
+  color: #c4ab9d;
 `;
 
 export const StyledImg = styled.img`
@@ -51,4 +53,5 @@ export const OrderedList = styled.ul`
 
 export const StyledA = styled.a`
   font-weight: bold;
+  color: #c4ab9d;
 `;
