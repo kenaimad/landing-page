@@ -42,16 +42,23 @@ const AboutMePage = () => {
           <Paragraph>
             Wolny czas spędzam na wymyślaniu wege alternatyw dla klasycznych
             posiłków (głównie słodkości!), a&nbsp;te uwielbiam fotografować
-            i&nbsp;dzielić się nimi na swoim <Anchor>[instagramie]</Anchor>. W tygodniu chętnie
-            wybieram się na jogging z&nbsp;moim pieskiem, a&nbsp;innym razem
-            praktykuję yogę albo ćwiczę na macie w&nbsp;domu. Jestem
-            fleksitarianką; w&nbsp;mojej diecie bazuję głównie na&nbsp;pełnym
-            ziarnie, warzywach, owocach i&nbsp;roślinnych źródłach białka,
-            jednak czasami wpada również klasyczny burger z&nbsp;wołowiną na
-            mieście. Z&nbsp;radością tworzę autorskie mieszanki ziołowe, które
-            spożywane w&nbsp;postaci naparów naturalnie wspierają funkcjonowanie
-            w&nbsp;zależności od aktualnych potrzeb; poprawa trawienia,
-            wyciszenie czy wsparcie odporności.
+            i&nbsp;dzielić się nimi na swoim{' '}
+            <Anchor
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/dobrzeje.m/?fbclid=IwAR18n-bY48KQVcn52aWjXrA1qhNYjf_2KBdEBYwL42NVLZVaARNlVwblLjs"
+            >
+              [instagramie]
+            </Anchor>
+            . W tygodniu chętnie wybieram się na jogging z&nbsp;moim pieskiem,
+            a&nbsp;innym razem praktykuję yogę albo ćwiczę na macie w&nbsp;domu.
+            Jestem fleksitarianką; w&nbsp;mojej diecie bazuję głównie
+            na&nbsp;pełnym ziarnie, warzywach, owocach i&nbsp;roślinnych
+            źródłach białka, jednak czasami wpada również klasyczny burger
+            z&nbsp;wołowiną na mieście. Z&nbsp;radością tworzę autorskie
+            mieszanki ziołowe, które spożywane w&nbsp;postaci naparów naturalnie
+            wspierają funkcjonowanie w&nbsp;zależności od aktualnych potrzeb;
+            poprawa trawienia, wyciszenie czy wsparcie odporności.
           </Paragraph>
         </TextContainer>
       </StyledSection>
