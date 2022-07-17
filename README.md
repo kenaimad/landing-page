@@ -3,7 +3,7 @@ Website created for marketing purposes for a dietitian. Application has multiple
 - React
 - JavaScript
 - HTML
-- CSS
+- SCSS
 - Styled-components
 - Firebase
 
