@@ -69,12 +69,19 @@ export const ImageContainer = styled.div`
 
   @media (max-width: 1200px) {
     width: 100%;
+    //height: 50%;
     order: 1;
   }
 `;
 
 export const Img = styled(StyledImg)`
   width: 70%;
+
+  @media (max-width: 1200px) {
+    width: 60%;
+    //height: 50%;
+    order: 1;
+  }
 `;
 
 
