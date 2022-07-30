@@ -26,7 +26,7 @@ export const Title = styled(StyledTitle)`
 `;
 
 export const Subtitle = styled(StyledSubtitle)`
-
+  font-size: 1.7rem;
 `;
 
 export const Paragraph = styled(StyledParagraph)`
@@ -46,6 +46,7 @@ export const StyledRecipePage = styled.div`
 export const PreparationContainer = styled.div`
   //max-height: 500px;
   font-size: 1.5rem;
+  padding: 1rem;
 
 
 `;
