@@ -14,7 +14,7 @@ html {
     font-size: 11px;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     font-size: 10px;
   }
 
