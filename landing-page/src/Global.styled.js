@@ -7,6 +7,26 @@ export default createGlobalStyle`
   color: #c4ab9d;
 }
 
+html {
+  font-size: 12px;
+
+  @media (max-width: 1600px) {
+    font-size: 11px;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 1080px) {
+    font-size: 12px;
+  }
+}
+
   body {
     margin: 0;
     padding: 0;
