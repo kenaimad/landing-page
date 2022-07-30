@@ -14,7 +14,7 @@ import {
 const OfferPage = () => {
   return (
     <PageWrapper>
-      <Title fontSize="2">W czym mogę Ci pomóc?</Title>
+      <Title>W czym mogę Ci pomóc?</Title>
       <ImagesSection>
         <StyledImage
           src={require('./images/diseases/1.png')}
@@ -51,11 +51,11 @@ const OfferPage = () => {
             dni otrzymasz zalecenia/jadłospis i&nbsp;wszelkie wskazówki. Teraz
             czas na Ciebie, działaj!
           </p>
-          <ul>
-            <li>1. Wybierz formę współpracy</li>
-            <li>2. Wypełnij ankietę dietetyczną</li>
-            <li>3. Odbierz plan działania</li>
-          </ul>
+          <ol>
+            <li>Wybierz formę współpracy</li>
+            <li>Wypełnij ankietę dietetyczną</li>
+            <li>Odbierz plan działania</li>
+          </ol>
           <p>
             Zalecenia i&nbsp;plan dietetyczny, który&nbsp;ode mnie otrzymasz
             opiera się na realnych celach i&nbsp;produktach,

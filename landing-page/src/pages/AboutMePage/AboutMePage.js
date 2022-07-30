@@ -14,10 +14,10 @@ import {
 const AboutMePage = () => {
   return (
     <PageWrapper>
-      <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
+      <MobileTitle>Cześć!</MobileTitle>
       <StyledSection>
         <TextContainer>
-          <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
+          <DesktopTitle>Cześć!</DesktopTitle>
           <Paragraph>
             Mam na imię Martyna&nbsp;i&nbsp;jestem licencjonowanym dietetykiem
             klinicznym, aktualnie na&nbsp;ostatniej prostej do uzyskania tytułu
@@ -64,7 +64,7 @@ const AboutMePage = () => {
       </StyledSection>
       <StyledSection>
         <TextContainer>
-          <Subtitle fontSize="1.8">
+          <Subtitle>
             Dlaczego powinnam zostać Twoim dietetykiem?
           </Subtitle>
           <Paragraph>

@@ -18,6 +18,7 @@ export const PageWrapper = styled(ComponentWrapper)`
 
 export const Title = styled(StyledTitle)`
   margin-top: 1rem;
+  font-size: 2rem;
 `;
 
 export const SubTitle = styled(StyledSubtitle)`
@@ -50,62 +51,19 @@ export const InformativeSection = styled.section`
     width: 80%;
     text-align: center;
     margin: 1rem 1rem;
+    font-size: 1.5rem;
 
     @media (max-width: 640px) {
       width: 100%;
       padding: 1rem;
     }
 
-    ul {
+    ol {
+      list-style-type: upper-roman;
+      list-style-position: inside;
       text-align: center;
-      list-style: none;
-
-      font-size: 1.3rem;
-
-      @media (max-width: 1400px) {
-        font-size: 1.2rem;
-      }
-
-      @media (max-width: 1100px) {
-        font-size: 1.1rem;
-      }
-
-      @media (max-width: 900px) {
-        font-size: 1rem;
-      }
-
-      @media (max-width: 700px) {
-        font-size: 0.9rem;
-      }
-
-      @media (max-width: 500px) {
-        font-size: 0.8rem;
-      }
     }
 
-    p {
-      font-size: 1.3rem;
-
-      @media (max-width: 1400px) {
-        font-size: 1.2rem;
-      }
-
-      @media (max-width: 1100px) {
-        font-size: 1.1rem;
-      }
-
-      @media (max-width: 900px) {
-        font-size: 1rem;
-      }
-
-      @media (max-width: 700px) {
-        font-size: 0.9rem;
-      }
-
-      @media (max-width: 500px) {
-        font-size: 0.8rem;
-      }
-    }
   }
 `;
 

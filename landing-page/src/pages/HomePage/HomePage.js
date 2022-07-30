@@ -15,10 +15,10 @@ const HomePage = () => {
   return (
     <PageWrapper>
       <MainSectionStyled>
-        <MobileTitle fontSize="2.5">Cześć!</MobileTitle>
+        <MobileTitle>Cześć!</MobileTitle>
         <PhotoDescriptionContainer>
-          <DesktopTitle fontSize="2">Cześć!</DesktopTitle>
-          <Paragraph fontSize="1.5">
+          <DesktopTitle>Cześć!</DesktopTitle>
+          <Paragraph>
             Mam na imię Martyna, z&nbsp;wykształcenia jestem dietetykiem
             klinicznym. Jeśli jesteś na mojej stronie to najprawdopodobniej
             kochasz swój organizm i&nbsp;chcesz zadbać o&nbsp;niego w&nbsp;jak
@@ -26,7 +26,7 @@ const HomePage = () => {
             sposobu żywienia, który będzie smakował i&nbsp;odżywiał, bez
             zbędnych restrykcji i&nbsp;wykluczeń.
           </Paragraph>
-          <Paragraph fontSize="1.5">
+          <Paragraph>
             Chodź, pokażę Ci jak <u>jeść dobrze!</u>
           </Paragraph>
         </PhotoDescriptionContainer>
