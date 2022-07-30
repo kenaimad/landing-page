@@ -1,4 +1,4 @@
-import { IngrediendsContainer, Subtitle, List } from './IngrediendsList.styled';
+import { IngrediendsContainer, List, Subtitle } from './IngrediendsList.styled';
 
 const IngrediendsList = (props) => {
   const writeIngrediends = () => {

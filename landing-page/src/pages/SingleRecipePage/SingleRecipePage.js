@@ -37,14 +37,14 @@ const SingleRecipePage = () => {
 
   return (
     <PageWrapper>
-      <Title fontSize="2.5">{recipeObj.name}</Title>
+      <Title>{recipeObj.name}</Title>
       <StyledImgContainer>
         <img alt="Meal" src={recipeObj.photo} />
       </StyledImgContainer>
-      <Title fontSize="2">Składniki:</Title>
+      <Title>Składniki:</Title>
       <IngrediendsSection ingrediends={recipeObj.ingrediends} />
 
-      <Subtitle fontSize="2">Sposób przygotowania:</Subtitle>
+      <Subtitle>Sposób przygotowania:</Subtitle>
       <PreparationContainer>
         <Paragraph>{recipeObj.preparation}</Paragraph>
       </PreparationContainer>

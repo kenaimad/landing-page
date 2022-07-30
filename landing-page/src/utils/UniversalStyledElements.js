@@ -18,16 +18,12 @@ export const ComponentWrapper = styled.div`
 export const StyledTitle = styled.h1`
   text-align: center;
   font-weight: bold;
-  font-size: 1.5rem;
-  font-size: ${(props) => props.fontSize}rem;
   color: #c4ab9d;
 `;
 
 export const StyledSubtitle = styled.h2`
   text-align: center;
   font-weight: bold;
-  font-size: 1.3rem;
-  font-size: ${(props) => props.fontSize}rem;
   color: #c4ab9d;
 `;
 
@@ -39,8 +35,6 @@ export const StyledImg = styled.img`
 export const StyledParagraph = styled.p`
   font-weight: bold;
   text-align: center;
-  font-size: 1.1rem;
-  font-size: ${(props) => props.fontSize}rem;
 `;
 
 export const UnorderedList = styled.ul`
