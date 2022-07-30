@@ -9,7 +9,7 @@ export const StyledNavContainer = styled.div`
   border-top: 1px solid #c4ab9d;
   border-bottom: 1px solid #c4ab9d;
   background-color: white;
-  height: 6rem;
+  height: 80px;
   z-index: 5;
 
   a {
