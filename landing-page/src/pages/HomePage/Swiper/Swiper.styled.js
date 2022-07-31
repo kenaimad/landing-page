@@ -54,6 +54,12 @@ export const StyledInstagramSwiper = styled.div`
             max-height: 75%;
             border: 1px solid #c4ab9d;
           }
+
+          @media (min-width: 2300px) {
+            max-width: 75%;
+            max-height: 400px;
+            border: 1px solid #c4ab9d;
+          }
         }
       }
     }
