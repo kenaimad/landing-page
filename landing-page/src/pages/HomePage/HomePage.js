@@ -1,4 +1,4 @@
-import StyledCarousel from '../../Layout/Slider/Slider';
+//import StyledCarousel from '../../Layout/Slider/Slider';
 import { StyledImg } from '../../utils/UniversalStyledElements';
 import {
   GallerySection,
@@ -10,6 +10,7 @@ import {
   Paragraph,
   PageWrapper,
 } from './HomePage.styled';
+import InstagramSwiper from './Swiper/Swiper';
 
 const HomePage = () => {
   return (
@@ -35,7 +36,8 @@ const HomePage = () => {
         </PhotoWrapper>
       </MainSectionStyled>
       <GallerySection>
-        <StyledCarousel />
+        <InstagramSwiper />
+        {/* <StyledCarousel /> */}
       </GallerySection>
     </PageWrapper>
   );
