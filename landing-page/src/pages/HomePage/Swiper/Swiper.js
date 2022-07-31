@@ -19,6 +19,19 @@ const InstagramSwiper = () => {
         loop={true}
         centeredSlides={false}
         className="mySwiper"
+        breakpoints={{
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+              },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        }}
       >
         <SwiperSlide>
           <a href="/#">
@@ -56,6 +69,7 @@ const InstagramSwiper = () => {
           </a>
         </SwiperSlide>
       </Swiper>
+      
     </S.StyledInstagramSwiper>
   );
 };
