@@ -12,7 +12,7 @@ const InstagramSwiper = () => {
     <S.StyledInstagramSwiper>
       <Swiper
         modules={[Autoplay, Navigation]}
-        autoplay={true}
+        autoplay={{ delay: 1000, disableOnInteraction: false }}
         navigation={true}
         slidesPerView={4}
         spaceBetween={10}

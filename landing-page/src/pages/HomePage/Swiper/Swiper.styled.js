@@ -26,7 +26,7 @@ export const StyledInstagramSwiper = styled.div`
       //border: 1px solid #c4ab9d;
       justify-content: center;
       align-items: center;
-      max-height: 100%;
+      max-height: 50%;
       width: 20%;
 
       @media (max-width: 1200px) {
