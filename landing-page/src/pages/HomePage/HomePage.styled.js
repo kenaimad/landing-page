@@ -50,6 +50,7 @@ export const PhotoWrapper = styled.div`
 
 export const MobileTitle = styled(StyledSubtitle)`
   display: none;
+  font-size: 2.5rem;
 
   @media (max-width: 1080px) {
     margin-top: 2rem;

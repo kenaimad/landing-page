@@ -1,20 +1,23 @@
 import styled from 'styled-components';
 
 export const StyledInstagramSwiper = styled.div`
+  flex-direction: column;
   height: 100%;
   width: 90%;
   text-align: center;
 
   .swiper-button-prev,
   .swiper-button-next {
-    color: #c4ab9d;
+    color: #4f2d11;
     height: 100%;
+    font-size: 10rem;
     display: flex;
     top: 10%;
   }
 
   .swiper-wrapper {
     display: flex;
+
     align-items: center;
     height: 100%;
 
@@ -24,15 +27,15 @@ export const StyledInstagramSwiper = styled.div`
       justify-content: center;
       align-items: center;
       max-height: 100%;
-      width: 25%;
+      width: 20%;
 
       @media (max-width: 1200px) {
         width: 33%;
       }
 
       @media (max-width: 600px) {
-          border: none;
-          }
+        border: none;
+      }
 
       a {
         display: flex;
@@ -47,12 +50,10 @@ export const StyledInstagramSwiper = styled.div`
           max-height: 100%;
 
           @media (max-width: 600px) {
-          max-width: 75%;
-          max-height: 75%;
-          border: 1px solid #c4ab9d;
+            max-width: 75%;
+            max-height: 75%;
+            border: 1px solid #c4ab9d;
           }
-
-
         }
       }
     }
