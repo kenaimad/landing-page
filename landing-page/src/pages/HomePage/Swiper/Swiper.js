@@ -34,37 +34,37 @@ const InstagramSwiper = () => {
         }}
       >
         <SwiperSlide>
-          <a href="/#">
+          <a href="https://www.instagram.com/p/CbVANtxsTvr/">
             <img src={require('../images/pictures/1.jpeg')} alt="Pyszne.pl" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/#">
-            <img src={require('../images/pictures/2.jpg')} alt="DeliGoo" />
+          <a href="https://www.instagram.com/p/CUW6-pKs9Hl/">
+            <img src={require('../images/pictures/4.jpeg')} alt="DeliGoo" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/#">
-            <img src={require('../images/pictures/3.jpeg')} alt="Glovo" />
+          <a href="https://www.instagram.com/p/CZY2BsNsp1k/">
+            <img src={require('../images/pictures/2.jpg')} alt="Glovo" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/#">
-            <img src={require('../images/pictures/4.jpeg')} alt="UberEats" />
+          <a href="https://www.instagram.com/p/CO9tF3Mrp4n/">
+            <img src={require('../images/pictures/3.jpeg')} alt="UberEats" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/#">
+          <a href="https://www.instagram.com/p/Ca9kc3DMoFV/">
             <img src={require('../images/pictures/5.jpeg')} alt="BoltFood" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/#">
+          <a href="https://www.instagram.com/p/CNjvaIdHCOR/">
             <img src={require('../images/pictures/6.jpeg')} alt="BoltFood" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="/#">
+          <a href="https://www.instagram.com/p/CPU_G6YreSV/">
             <img src={require('../images/pictures/7.jpeg')} alt="BoltFood" />
           </a>
         </SwiperSlide>

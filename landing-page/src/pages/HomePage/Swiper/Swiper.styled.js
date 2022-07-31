@@ -20,7 +20,7 @@ export const StyledInstagramSwiper = styled.div`
 
     .swiper-slide {
       display: flex;
-      border: 1px solid #c4ab9d;
+      //border: 1px solid #c4ab9d;
       justify-content: center;
       align-items: center;
       max-height: 100%;
