@@ -44,9 +44,9 @@ export const StyledListContainer = styled.div`
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
     right: 0;
-    height: 90vh;
+    height: calc(100vh - 80px);
     width: 100vw;
-    margin-top: 6rem;
+    margin-top: 80px;
   }
 
   @media (max-height: 650px) {
