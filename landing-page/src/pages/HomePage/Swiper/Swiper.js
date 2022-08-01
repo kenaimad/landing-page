@@ -22,11 +22,11 @@ const InstagramSwiper = () => {
         breakpoints=
         {{
           2300: {
-            slidesPerView: 5,
+            slidesPerView: 6,
             spaceBetween: 5,
           },
           1200: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 10,
           },
           600: {
