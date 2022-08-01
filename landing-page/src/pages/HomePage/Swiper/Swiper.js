@@ -1,25 +1,26 @@
-import React from 'react';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 import 'swiper/css';
-import { Autoplay, Navigation } from 'swiper';
-import * as S from './Swiper.styled';
-import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+import 'swiper/css/autoplay';
+
+import * as S from './Swiper.styled';
 
 const InstagramSwiper = () => {
   return (
     <S.StyledInstagramSwiper>
       <Swiper
-        modules={[Autoplay, Navigation]}
+        modules={[Navigation, Pagination, Autoplay]}
+        slidesPerView={2}
+        spaceBetween={20}
+        //navigation
         autoplay={{ delay: 1500, disableOnInteraction: false }}
-        navigation={false}
-        slidesPerView={4}
-        spaceBetween={10}
         loop={true}
-        centeredSlides={false}
-        className="mySwiper"
-        breakpoints={{
+        breakpoints=
+        {{
           1200: {
             slidesPerView: 4,
             spaceBetween: 10,
@@ -32,7 +33,7 @@ const InstagramSwiper = () => {
             slidesPerView: 1,
           },
         }}
-      >
+        >
         <SwiperSlide>
           <a
             href="https://www.instagram.com/p/CbVANtxsTvr/"

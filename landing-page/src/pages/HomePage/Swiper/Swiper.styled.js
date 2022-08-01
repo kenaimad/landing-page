@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledInstagramSwiper = styled.div`
-  flex-direction: column;
+  //flex-direction: column;
   height: 100%;
   width: 90%;
   text-align: center;
@@ -22,10 +22,10 @@ export const StyledInstagramSwiper = styled.div`
     height: 100%;
 
     .swiper-slide {
-      display: flex;
+      //display: flex;
       //border: 1px solid #c4ab9d;
-      justify-content: center;
-      align-items: center;
+      //justify-content: center;
+      //align-items: center;
       max-height: 50%;
       width: 20%;
 
