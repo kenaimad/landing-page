@@ -14,13 +14,17 @@ const InstagramSwiper = () => {
     <S.StyledInstagramSwiper>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        slidesPerView={2}
-        spaceBetween={20}
+        slidesPerView={4}
+        spaceBetween={30}
         //navigation
         autoplay={{ delay: 1500, disableOnInteraction: false }}
         loop={true}
         breakpoints=
         {{
+          2300: {
+            slidesPerView: 5,
+            spaceBetween: 5,
+          },
           1200: {
             slidesPerView: 4,
             spaceBetween: 10,

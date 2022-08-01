@@ -10,8 +10,8 @@ export const ComponentWrapper = styled.div`
   background-color: white;
 
   @media (max-width: 1080px) {
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
   }
 `;
 

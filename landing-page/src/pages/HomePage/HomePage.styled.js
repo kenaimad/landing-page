@@ -27,11 +27,11 @@ export const GallerySection = styled.section`
   justify-content: center;
   align-items: center;
   height: 400px;
-  max-width: 90%;
+  max-width: 100%;
 
   @media (max-width: 1080px) {
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
   }
 `;
 
