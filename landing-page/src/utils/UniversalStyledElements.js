@@ -16,6 +16,7 @@ export const ComponentWrapper = styled.div`
 `;
 
 export const StyledTitle = styled.h1`
+  font-size: 2rem;
   text-align: center;
   font-weight: bold;
   color: #c4ab9d;
