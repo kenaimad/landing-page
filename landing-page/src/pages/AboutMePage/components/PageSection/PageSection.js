@@ -1,6 +1,6 @@
 import * as S from './PageSection.styled';
 
-const Paragraph1 = (props) => {
+const PageSection = (props) => {
   return (
     <S.StyledSection>
       <S.TextContainer>
@@ -15,4 +15,4 @@ const Paragraph1 = (props) => {
   );
 };
 
-export default Paragraph1;
+export default PageSection;
