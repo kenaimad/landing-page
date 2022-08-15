@@ -27,7 +27,7 @@ const ImagesSection = () => {
   return (
     <S.ImagesSection>
       {images.map((image) => {
-        return <img src={image.src} alt={image.alt} />;
+        return <img key={image.src} src={image.src} alt={image.alt} />;
       })}
     </S.ImagesSection>
   );
