@@ -22,16 +22,35 @@ const AboutMePage = () => {
     },
   ];
 
-  const writePageContent = () => {
-    return pageContent.map((paragraph) => {
-      return <PageSection key={paragraph.text} title={paragraph.title} text={paragraph.text} img={paragraph.img} endingText={paragraph.endingText} />
-    })
-  }
+  // const writePageContent = () => {
+  //   return pageContent.map((paragraph) => {
+  //     return (
+  //       <PageSection
+  //         key={paragraph.text}
+  //         title={paragraph.title}
+  //         text={paragraph.text}
+  //         img={paragraph.img}
+  //         endingText={paragraph.endingText}
+  //       />
+  //     );
+  //   });
+  // };
 
   return (
     <PageWrapper>
       <MobileTitle>Cześć!</MobileTitle>
-      {writePageContent()}
+      {/* {writePageContent()} */}
+      {pageContent.map((paragraph) => {
+        return (
+          <PageSection
+            key={paragraph.text}
+            title={paragraph.title}
+            text={paragraph.text}
+            img={paragraph.img}
+            endingText={paragraph.endingText}
+          />
+        );
+      })}
     </PageWrapper>
   );
 };
