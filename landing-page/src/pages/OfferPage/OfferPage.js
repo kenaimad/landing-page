@@ -1,6 +1,6 @@
 import {
   PageWrapper,
-  ImagesSection,
+  //ImagesSection,
   StyledImage,
   Title,
   InformativeSection,
@@ -11,11 +11,13 @@ import {
   TileContainer,
 } from './OfferPage.styled';
 
+import ImagesSection from './Sections/ImagesSection/ImagesSection';
+
 const OfferPage = () => {
   return (
     <PageWrapper>
       <Title>W czym mogę Ci pomóc?</Title>
-      <ImagesSection>
+      {/* <ImagesSection>
         <StyledImage
           src={require('./images/diseases/1.png')}
           alt="Skuteczne odchudzanie."
@@ -36,7 +38,8 @@ const OfferPage = () => {
           src={require('./images/diseases/5.png')}
           alt="Zmiana nawyków."
         />
-      </ImagesSection>
+      </ImagesSection> */}
+      <ImagesSection />
       <InformativeSection>
         <SubTitle>Z czym to się je?</SubTitle>
         <div>
