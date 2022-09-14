@@ -20,12 +20,10 @@ const HomePage = () => {
         <PhotoDescriptionContainer>
           <DesktopTitle>Cześć!</DesktopTitle>
           <Paragraph>
-            Mam na imię Martyna, z&nbsp;wykształcenia jestem dietetykiem
-            klinicznym. Jeśli jesteś na mojej stronie to najprawdopodobniej
-            kochasz swój organizm i&nbsp;chcesz zadbać o&nbsp;niego w&nbsp;jak
-            najlepszy sposób. Z&nbsp;przyjemnością pomogę Ci w&nbsp;odnalezieniu
-            sposobu żywienia, który będzie smakował i&nbsp;odżywiał, bez
-            zbędnych restrykcji i&nbsp;wykluczeń.
+            Mam na imię Martyna, jestem dyplomowanym dietetykiem klinicznym. 
+            Z&nbsp;przyjemnością pomogę Ci w odnalezieniu sposobu żywienia, który
+            będzie smakował, odżywiał i wspierał organizm w zdrowiu i chorobie,
+            bez zbędnych restrykcji i wykluczeń.
           </Paragraph>
           <Paragraph>
             Chodź, pokażę Ci jak <u>jeść dobrze!</u>
@@ -37,7 +35,6 @@ const HomePage = () => {
       </MainSectionStyled>
       <GallerySection>
         <InstagramSwiper />
-        {/* <StyledCarousel /> */}
       </GallerySection>
     </PageWrapper>
   );

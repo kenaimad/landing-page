@@ -26,7 +26,7 @@ export const GallerySection = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  //height: 400px;
   max-width: 100%;
 
   @media (max-width: 1080px) {
