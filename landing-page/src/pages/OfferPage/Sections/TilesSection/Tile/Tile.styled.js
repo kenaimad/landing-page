@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const TileContainer = styled.div`
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   width: 40%;
-  max-height: 50vh;
+  max-height: 70vh;
 
   @media (max-width: 640px) {
     width: 100%;
