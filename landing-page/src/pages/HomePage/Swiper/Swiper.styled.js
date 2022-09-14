@@ -21,10 +21,6 @@ export const StyledInstagramSwiper = styled.div`
     height: 100%;
 
     .swiper-slide {
-      //display: flex;
-      //border: 1px solid #c4ab9d;
-      //justify-content: center;
-      //align-items: center;
       max-height: 50%;
       width: 25%;
       margin-bottom: 20px;
@@ -53,16 +49,16 @@ export const StyledInstagramSwiper = styled.div`
           @media (max-width: 600px) {
             max-width: 75%;
             max-height: 75%;
-            border: 1px solid #c4ab9d;
+            //border: 1px solid #c4ab9d;
           }
 
-          @media (max-width: 2300px) {
+          /* @media (max-width: 2300px) {
             max-width: 100%;
             max-height: 100%;
             border: 1px solid #c4ab9d;
-          }
+          } */
 
-          @media (min-width: 2300px) {
+          @media (min-width: 600px) {
             max-width: 90%;
             max-height: 400px;
             border: 1px solid #c4ab9d;
