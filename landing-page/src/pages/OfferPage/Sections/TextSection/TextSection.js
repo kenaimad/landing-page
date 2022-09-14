@@ -17,16 +17,12 @@ const TextSection = () => {
             online, jadłospis/zalecenia i wszelkie wskazówki. Teraz czas na
             Ciebie, działaj!
           </p>
-          <ol>
-            <li>
-              Wyślij maila na dobrzejem.dietetyk@gmail.com (zakładka kontakt)
-              wpisując w tytule: imię.nazwisko-współpraca dietetyczna *
-            </li>
-            <li>Wybierz formę współpracy</li>
-            <li>Wypełnij ankietę dietetyczną</li>
-            <li>Odbierz plan działania</li>
-          </ol>
-          <p style={{fontSize: "1rem"}}>
+          <S.ImagesContainer>
+            <img src={require('./images/1.png')} alt="Step one" />
+            <img src={require('./images/2.png')} alt="Step two" />
+            <img src={require('./images/3.png')} alt="Step three" />
+          </S.ImagesContainer>
+          <p style={{ fontSize: '1rem'}}>
             *W treści maila napisz, która forma współpracy Ci odpowiada
             (spotkanie online/konsultacja mailowa) oraz wybrany pakiet usług (np
             pakiet 2 miesięczny).

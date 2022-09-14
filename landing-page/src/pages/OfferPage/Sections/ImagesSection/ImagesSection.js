@@ -7,20 +7,16 @@ const ImagesSection = () => {
       alt: 'Skuteczne odchudzanie.',
     },
     {
+      src: require('../../images/diseases/6.png'),
+      alt: 'Wsparcie w chorobie.',
+    },
+    {
       src: require('../../images/diseases/2.png'),
-      alt: 'Skuteczne odchudzanie.',
-    },
-    {
-      src: require('../../images/diseases/3.png'),
-      alt: 'Skuteczne odchudzanie.',
-    },
-    {
-      src: require('../../images/diseases/4.png'),
-      alt: 'Skuteczne odchudzanie.',
+      alt: 'Diety roślinne..',
     },
     {
       src: require('../../images/diseases/5.png'),
-      alt: 'Skuteczne odchudzanie.',
+      alt: 'Zmiana nawyków.',
     },
   ];
 
