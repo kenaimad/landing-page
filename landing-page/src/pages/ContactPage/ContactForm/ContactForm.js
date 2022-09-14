@@ -29,6 +29,7 @@ const ContactForm = () => {
       },
       body: JSON.stringify({
         name: values.user.email,
+        title: values.user.title,
         message: values.user.message,
       }),
     })
@@ -55,6 +56,17 @@ const ContactForm = () => {
               {
                 required: true,
                 type: 'email',
+              },
+            ]}
+          >
+            <StyledInput />
+          </StyledItem>
+          <StyledItem
+            name={['user', 'title']}
+            label="Tytuł"
+            rules={[
+              {
+                required: true,
               },
             ]}
           >
