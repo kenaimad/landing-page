@@ -7,21 +7,30 @@ const TextSection = () => {
         <S.SubTitle>Z czym to się je?</S.SubTitle>
         <div>
           <p>
-            W&nbsp;zależności od&nbsp;preferencji, wybierz&nbsp;plan współpracy:
-            konsultacja w&nbsp;formie wideorozmowy lub&nbsp;wymiana mailowa.
-            Obie opcje opierają się na wypełnionej przez Ciebie ankiecie
-            dietetycznej, którą wyślę na&nbsp;Twojego maila wraz
-            ze&nbsp;wskazówkami po&nbsp;otrzymaniu od Ciebie wiadomości
-            i&nbsp;dowodu dokonania wpłaty. Po odesłaniu wypełnionej ankiety
-            w&nbsp;zależności od wybranej przez Ciebie opcji w&nbsp;ciągu 3-7
-            dni otrzymasz zalecenia/jadłospis i&nbsp;wszelkie wskazówki. Teraz
-            czas na Ciebie, działaj!
+            W zależności od preferencji, wybierz plan współpracy: konsultacja w
+            formie spotkania online lub wymiana mailowa. Obie opcje opierają się
+            na wypełnionej przez Ciebie ankiecie dietetycznej, którą wyślę na
+            Twojego maila wraz ze wskazówkami po otrzymaniu od Ciebie wiadomości
+            i zaksięgowania wpłaty. Po odesłaniu wypełnionej ankiety w
+            zależności od wybranej przez Ciebie opcji w ciągu maksymalnie 7 dni
+            roboczych otrzymasz ode mnie dostęp do własnego konta pacjenta
+            online, jadłospis/zalecenia i wszelkie wskazówki. Teraz czas na
+            Ciebie, działaj!
           </p>
           <ol>
+            <li>
+              Wyślij maila na dobrzejem.dietetyk@gmail.com (zakładka kontakt)
+              wpisując w tytule: imię.nazwisko-współpraca dietetyczna *
+            </li>
             <li>Wybierz formę współpracy</li>
             <li>Wypełnij ankietę dietetyczną</li>
             <li>Odbierz plan działania</li>
           </ol>
+          <p style={{fontSize: "1rem"}}>
+            *W treści maila napisz, która forma współpracy Ci odpowiada
+            (spotkanie online/konsultacja mailowa) oraz wybrany pakiet usług (np
+            pakiet 2 miesięczny).
+          </p>
           <p>
             Zalecenia i&nbsp;plan dietetyczny, który&nbsp;ode mnie otrzymasz
             opiera się na realnych celach i&nbsp;produktach,
