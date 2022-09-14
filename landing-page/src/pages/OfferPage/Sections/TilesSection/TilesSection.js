@@ -20,6 +20,14 @@ const TilesSection = () => {
             backImage: require('./offerImages/4th2.png')
         },
         {
+            frontImage: require('./offerImages/7th1.png'),
+            backImage: require('./offerImages/7th2.png')
+        },
+        {
+            frontImage: require('./offerImages/8th1.png'),
+            backImage: require('./offerImages/8th2.png')
+        },
+        {
             frontImage: require('./offerImages/5th1.png'),
             backImage: require('./offerImages/5th2.png')
         },
