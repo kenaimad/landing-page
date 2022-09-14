@@ -21,7 +21,7 @@ const ContactForm = () => {
   const [isMessageSend, setIsMessageSend] = useState(false);
 
   const onFinish = (values) => {
-    fetch('https://formsubmit.co/ajax/dosieniecki@gmail.com', {
+    fetch('https://formsubmit.co/ajax/dobrzejem.dietetyk@gmail.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
