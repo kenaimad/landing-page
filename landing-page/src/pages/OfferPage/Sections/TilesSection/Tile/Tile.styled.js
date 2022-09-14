@@ -5,7 +5,7 @@ export const TileContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 40%;
-  max-height: 30%;
+  max-height: 25%;
 
   @media (max-width: 640px) {
     width: 100%;
