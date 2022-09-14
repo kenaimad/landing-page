@@ -30,7 +30,7 @@ export const StyledLogo = styled.img`
   transition: all 0.3s ease-in;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     }
 `;
 

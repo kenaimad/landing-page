@@ -5,12 +5,13 @@ export const TileContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 40%;
-  max-height: 25%;
+  max-height: 50vh;
 
   @media (max-width: 640px) {
     width: 100%;
     margin-bottom: 1.5rem;
   }
+
 `;
 
 export const FrontTileImg = styled.img`
