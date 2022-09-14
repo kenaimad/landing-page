@@ -6,7 +6,7 @@ const AboutMePage = () => {
   let pageContent = [
     {
       title: 'Cześć!',
-      text: 'Mam na imię Martyna i jestem licencjonowanym dietetykiem klinicznym, aktualnie na ostatniej prostej do uzyskania tytułu magistra na Uniwersytecie Medycznym we Wrocławiu. Wyznaję holistyczne podejście do zdrowia, aby czuć się dobrze ważne jest zarówno dobre samopoczucie psychiczne jak i fizyczne. Szczególnie bliskie są mi tematy dotyczące diet roślinnych i postępowania dietetycznego w chorobach jelit, alergiach i nietolerancjach pokarmowych. Zajmuję się również dietoterapią w przypadku otyłości, chorób tarczycy i insulinooporności.',
+      text: 'Mam na imię Martyna i jestem dyplomowanym dietetykiem klinicznym. Tytuł magistra uzyskałam na Uniwersytecie Medycznym we Wrocławiu. Wyznaję holistyczne podejście do zdrowia, aby czuć się dobrze ważne jest zarówno dobre samopoczucie psychiczne jak i fizyczne. Szczególnie bliskie są mi tematy dotyczące diet roślinnych i postępowania dietetycznego w chorobach jelit, alergiach i nietolerancjach pokarmowych. Zajmuję się również dietoterapią w przypadku otyłości, chorób tarczycy i insulinooporności.',
       img: require('./pictures/1.png'),
     },
     {
