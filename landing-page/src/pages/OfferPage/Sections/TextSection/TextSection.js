@@ -7,15 +7,15 @@ const TextSection = () => {
         <S.SubTitle>Z czym to się je?</S.SubTitle>
         <div>
           <p>
-            W zależności od preferencji, wybierz plan współpracy: konsultacja w
-            formie spotkania online lub wymiana mailowa. Obie opcje opierają się
+            W zależności od preferencji, wybierz plan współpracy: konsultacja 
+            w&nbsp;formie spotkania online lub wymiana mailowa. Obie opcje opierają się
             na wypełnionej przez Ciebie ankiecie dietetycznej, którą wyślę na
             Twojego maila wraz ze wskazówkami po otrzymaniu od Ciebie wiadomości
-            i zaksięgowania wpłaty. Po odesłaniu wypełnionej ankiety w
-            zależności od wybranej przez Ciebie opcji w ciągu maksymalnie 7 dni
+            i zaksięgowania wpłaty. Po odesłaniu wypełnionej ankiety 
+            w&nbsp;zależności od&nbsp;wybranej przez Ciebie opcji w&nbsp;ciągu maksymalnie 7 dni
             roboczych otrzymasz ode mnie dostęp do własnego konta pacjenta
-            online, jadłospis/zalecenia i wszelkie wskazówki. Teraz czas na
-            Ciebie, działaj!
+            online, jadłospis/zalecenia i wszelkie wskazówki. Teraz czas 
+            na&nbsp;Ciebie, działaj!
           </p>
           <S.ImagesContainer>
             <img src={require('./images/1.png')} alt="Step one" />
@@ -23,9 +23,9 @@ const TextSection = () => {
             <img src={require('./images/3.png')} alt="Step three" />
           </S.ImagesContainer>
           <p style={{ fontSize: '1rem'}}>
-            *W treści maila napisz, która forma współpracy Ci odpowiada
+            *W treści maila napisz, która forma współpracy Ci&nbsp;odpowiada
             (spotkanie online/konsultacja mailowa) oraz wybrany pakiet usług (np
-            pakiet 2 miesięczny).
+            pakiet&nbsp;2&nbsp;miesięczny).
           </p>
           <p>
             Zalecenia i&nbsp;plan dietetyczny, który&nbsp;ode mnie otrzymasz

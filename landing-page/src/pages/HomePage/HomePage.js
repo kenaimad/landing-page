@@ -21,9 +21,9 @@ const HomePage = () => {
           <DesktopTitle>Cześć!</DesktopTitle>
           <Paragraph>
             Mam na imię Martyna, jestem dyplomowanym dietetykiem klinicznym. 
-            Z&nbsp;przyjemnością pomogę Ci w odnalezieniu sposobu żywienia, który
-            będzie smakował, odżywiał i wspierał organizm w zdrowiu i chorobie,
-            bez zbędnych restrykcji i wykluczeń.
+            Z&nbsp;przyjemnością pomogę Ci w&nbsp;odnalezieniu sposobu żywienia, który
+            będzie smakował, odżywiał i&nbsp;wspierał organizm w zdrowiu i&nbsp;chorobie,
+            bez zbędnych restrykcji i&nbsp;wykluczeń.
           </Paragraph>
           <Paragraph>
             Chodź, pokażę Ci jak <u>jeść dobrze!</u>
