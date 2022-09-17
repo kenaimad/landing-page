@@ -6,6 +6,7 @@ export const InformationContainer = styled.section``;
 export const InformativeSection = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -16,6 +17,10 @@ export const InformativeSection = styled.section`
   width: 100%;
 
   div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     text-align: center;
     margin: 1rem 1rem;
@@ -38,13 +43,14 @@ export const ImagesContainer = styled.section`
   margin: 2rem;
   display: flex;
   justify-content: center;
+
   //align-items: center;
   flex-wrap: wrap;
-
 
   img {
     height: 40vh;
     max-height: 400px;
+    max-width: 400px;
     object-fit: contain;
     flex-grow: 0;
     transition: all 0.3s ease-in;
