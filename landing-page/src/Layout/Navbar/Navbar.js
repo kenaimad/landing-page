@@ -26,19 +26,6 @@ const Navbar = () => {
 
   return (
     <StyledNavContainer>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.instagram.com/dobrzeje.m/?fbclid=IwAR18n-bY48KQVcn52aWjXrA1qhNYjf_2KBdEBYwL42NVLZVaARNlVwblLjs"
-      >
-        <IconWrapper>
-          <StyledIcon
-            src={require('./icons/ig-icon.png')}
-            alt="Instagram Icon"
-          ></StyledIcon>
-          <p>dobrzeje.m</p>
-        </IconWrapper>
-      </a>
       <StyledListContainer open={isOpen} onClick={closeMenuAfterClick}>
         <Element>
           <NavLink to="/">
@@ -88,6 +75,18 @@ const Navbar = () => {
           ></img>
         </BurgerWrapper>
       )}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.instagram.com/dobrzeje.m/?fbclid=IwAR18n-bY48KQVcn52aWjXrA1qhNYjf_2KBdEBYwL42NVLZVaARNlVwblLjs"
+      >
+        <IconWrapper>
+          <StyledIcon
+            src={require('./icons/ig-icon.png')}
+            alt="Instagram Icon"
+          ></StyledIcon>
+        </IconWrapper>
+      </a>
     </StyledNavContainer>
   );
 };

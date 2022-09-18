@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { StyledSubtitle } from '../../../../utils/UniversalStyledElements';
+import { Colors } from '../../../../utils/Colors';
 
 export const InformationContainer = styled.section``;
 
@@ -10,7 +11,7 @@ export const InformativeSection = styled.section`
   align-items: center;
   margin: 1rem;
   font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
+  color: ${Colors.primaryFontColor};
   font-weight: bold;
   text-align: center;
   min-width: 300px;
@@ -26,6 +27,10 @@ export const InformativeSection = styled.section`
     margin: 1rem 1rem;
     font-size: 1.5rem;
 
+    p {
+      color: ${Colors.primaryFontColor};
+    }
+
     @media (max-width: 640px) {
       width: 100%;
       padding: 1rem;
@@ -34,8 +39,9 @@ export const InformativeSection = styled.section`
 `;
 
 export const SubTitle = styled(StyledSubtitle)`
-  text-decoration: underline 1px solid #c4ab9d;
+  text-decoration: underline 1px solid ${Colors.primaryFontColor};
   font-size: 2rem;
+  color:  ${Colors.primaryFontColor};
 `;
 
 export const ImagesContainer = styled.section`
@@ -54,7 +60,7 @@ export const ImagesContainer = styled.section`
     object-fit: contain;
     flex-grow: 0;
     transition: all 0.3s ease-in;
-    border: 1px solid #c4ab9d;
+    border: 1px solid ${Colors.primaryFontColor};;
     margin: 1rem;
 
     @media (max-width: 950px) {

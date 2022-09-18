@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../../../utils/Colors';
 
 export const StyledSection = styled.section`
   display: flex;
@@ -14,7 +15,7 @@ export const StyledSection = styled.section`
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    color: #c4ab9d;
+    color:  ${Colors.primaryFontColor};
 
     
   @media (max-width: 1200px) {

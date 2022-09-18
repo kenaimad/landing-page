@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../../utils/Colors';
 
 export const StyledInstagramSwiper = styled.div`
   //flex-direction: column;
@@ -61,7 +62,7 @@ export const StyledInstagramSwiper = styled.div`
           @media (min-width: 600px) {
             max-width: 90%;
             max-height: 400px;
-            border: 1px solid #c4ab9d;
+            border: 1px solid ${Colors.primaryFontColor};
           }
         }
       }

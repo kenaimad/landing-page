@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from './Colors';
 
 export const ComponentWrapper = styled.div`
   display: flex;
@@ -8,6 +9,7 @@ export const ComponentWrapper = styled.div`
   max-width: 90%;
   min-height: 80vh;
   background-color: white;
+  color: ${Colors.primaryFontColor};
 
   @media (max-width: 1080px) {
     /* width: 100%;
@@ -19,13 +21,13 @@ export const StyledTitle = styled.h1`
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
-  color: #c4ab9d;
+  color: ${Colors.primaryFontColor};
 `;
 
 export const StyledSubtitle = styled.h2`
   text-align: center;
   font-weight: bold;
-  color: #c4ab9d;
+  color: ${Colors.primaryFontColor};
 `;
 
 export const StyledImg = styled.img`
@@ -48,5 +50,5 @@ export const OrderedList = styled.ul`
 
 export const StyledA = styled.a`
   font-weight: bold;
-  color: #c4ab9d;
+  color: ${Colors.primaryFontColor};
 `;

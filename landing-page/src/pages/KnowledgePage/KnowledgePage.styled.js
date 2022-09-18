@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import { ComponentWrapper } from '../../utils/UniversalStyledElements';
+import { Colors } from '../../utils/Colors';
 
 export const PageWrapper = styled(ComponentWrapper)`
   justify-content: space-between;
@@ -26,11 +27,11 @@ export const MainSection = styled.section`
 
   div {
     &:first-child {
-      border-right: 3px solid #c4ab9d;
+      border-right: 3px solid ${Colors.primaryFontColor};
 
       @media (max-width: 1080px) {
         border-right: none;
-        border-bottom: 3px solid #c4ab9d;
+        border-bottom: 3px solid ${Colors.primaryFontColor};
       }
     }
 
@@ -51,7 +52,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
+  color: ${Colors.primaryFontColor};
   font-size: 5rem;
 
   &:hover {

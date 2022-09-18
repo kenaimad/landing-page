@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../utils/Colors';
 
 export const StyledFooter = styled.section`
   display: flex;
@@ -6,7 +7,7 @@ export const StyledFooter = styled.section`
   align-items: center;
   //height: 3rem;
   width: 100%;
-  border-top: 1px solid #c4ab9d;
+  border-top: 1px solid ${Colors.primaryFontColor};
   background-color: white;
 `;
 
@@ -49,7 +50,7 @@ export const StyledContactInfo = styled.div`
   a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
+    color: ${Colors.primaryFontColor};
     font-size: 0.8rem;
     font-weight: bold;
   }

@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
+import { Colors } from '../../utils/Colors';
 
 export const StyledNavContainer = styled.div`
   position: sticky;
   display: flex;
   top: 0;
   width: 100%;
-  border-top: 1px solid #c4ab9d;
-  border-bottom: 1px solid #c4ab9d;
+  border-top: 1px solid ${Colors.primaryFontColor};
+  border-bottom: 1px solid ${Colors.primaryFontColor};
   background-color: white;
   height: 80px;
   z-index: 5;
@@ -71,7 +72,7 @@ export const StyledListElement = styled.div`
   }
 
   @media (max-width: 640px) {
-    border-top: 1px solid #c4ab9d;
+    border-top: 1px solid ${Colors.primaryFontColor};
 
     &:hover {
       background-color: white;
@@ -86,7 +87,7 @@ export const NavLink = styled(Link)`
   height: 100%;
   text-decoration: none;
   font-size: 1.2rem;
-  color: #c4ab9d;
+  color: ${Colors.primaryFontColor};
 
   &.active {
     background-color: #f7ebe5;
@@ -105,7 +106,8 @@ export const NavLink = styled(Link)`
 
 export const IconWrapper = styled.div`
   display: flex;
-  padding-top: 0.9rem;
+  justify-content: center;
+  //padding-top: 0.9rem;
   text-align: center;
   flex-direction: column;
   width: 10vw;
@@ -121,7 +123,7 @@ export const IconWrapper = styled.div`
     font-size: 0.7rem;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
-    color: #c4ab9d;
+    color: ${Colors.primaryFontColor};
   }
 `;
 

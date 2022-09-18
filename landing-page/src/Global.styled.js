@@ -1,10 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
+import { Colors } from './utils/Colors';
 
 export default createGlobalStyle`
 * {
-  font-family: 'Poppins', sans-serif;
-  color: #c4ab9d;
+  font-family: 'Poppins';
+  color: ${Colors.primaryFontColor};
 }
 
 html {
