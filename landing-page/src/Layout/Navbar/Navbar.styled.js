@@ -30,6 +30,7 @@ export const StyledNavContainer = styled.div`
 
   @media (max-width: 640px) {
     justify-content: space-between;
+    flex-direction: row-reverse;
   }
 `;
 
