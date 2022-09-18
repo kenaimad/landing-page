@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../../../../utils/Colors';
 
 export const TileContainer = styled.div`
   position: relative;
@@ -10,6 +11,7 @@ export const TileContainer = styled.div`
   @media (max-width: 640px) {
     width: 100%;
     margin-bottom: 1.5rem;
+    border: 1px solid ${Colors.primaryFontColor};
   }
 
 `;
