@@ -26,6 +26,25 @@ const Navbar = () => {
 
   return (
     <StyledNavContainer>
+      {!isOpen ? (
+        <BurgerWrapper onClick={toggleIsOpen}>
+          <img
+            src={require('./icons/burger-icon.png')}
+            alt="Instagram Icon"
+          ></img>
+        </BurgerWrapper>
+      ) : (
+        <BurgerWrapper
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+        >
+          <img
+            src={require('./icons/close-icon.png')}
+            alt="Instagram Icon"
+          ></img>
+        </BurgerWrapper>
+      )}
       <StyledListContainer open={isOpen} onClick={closeMenuAfterClick}>
         <Element>
           <NavLink to="/">
@@ -56,25 +75,6 @@ const Navbar = () => {
       <LogoWrapper>
         <img src={require('../LogoBar/logo2.png')} alt="Logo Icon"></img>
       </LogoWrapper>
-      {!isOpen ? (
-        <BurgerWrapper onClick={toggleIsOpen}>
-          <img
-            src={require('./icons/burger-icon.png')}
-            alt="Instagram Icon"
-          ></img>
-        </BurgerWrapper>
-      ) : (
-        <BurgerWrapper
-          onClick={() => {
-            setIsOpen(!isOpen);
-          }}
-        >
-          <img
-            src={require('./icons/close-icon.png')}
-            alt="Instagram Icon"
-          ></img>
-        </BurgerWrapper>
-      )}
       <a
         target="_blank"
         rel="noopener noreferrer"
