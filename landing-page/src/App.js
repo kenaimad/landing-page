@@ -17,6 +17,7 @@ import SingleRecipePage from './pages/SingleRecipePage/SingleRecipePage';
 import { ApplicationWrapper } from './Global.styled';
 
 
+
 function App() {
   return (
     <Router>
