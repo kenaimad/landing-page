@@ -7,4 +7,4 @@ Website created for marketing purposes for a dietitian. Application has multiple
 - Styled-components
 - Firebase
 
-Live demo: https://my-landing-1007.netlify.app/
+Live demo: dobrzeje.pl
