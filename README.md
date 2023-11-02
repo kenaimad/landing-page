@@ -7,4 +7,4 @@ Website created for marketing purposes for a dietitian. Application has multiple
 - Styled-components
 - Firebase
 
-Live demo: dobrzeje.pl
+Live demo: https://dobrzeje.pl
